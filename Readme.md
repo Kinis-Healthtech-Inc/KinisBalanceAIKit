@@ -1,10 +1,3 @@
-//
-//  Readme.md
-//  KinisBalanceAIKit
-//
-//  Created by Macbook on 26/2/26.
-//
-
 # KinisBalanceAIKit
 
 Official Swift SDK to integrate Kinis Balance AI into your app.
