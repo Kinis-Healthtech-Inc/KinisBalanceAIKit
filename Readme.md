@@ -24,3 +24,6 @@ struct ContentView: View {
         }
     }
 }
+```
+
+This SDK needs camera, so please add `Privacy - Camera Usage Description`

@@ -1,0 +1,83 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXFileReference section */
+		FA09A67F2F517FF600969148 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+		FA09A6802F517FF600969148 /* KinisBalanceAIKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = KinisBalanceAIKit.xcframework; sourceTree = "<group>"; };
+		FA09A6812F517FF600969148 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		FA09A6822F517FF600969148 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		FA09A6782F517FCA00969148 = {
+			isa = PBXGroup;
+			children = (
+				FA09A67F2F517FF600969148 /* Documentation.docc */,
+				FA09A6802F517FF600969148 /* KinisBalanceAIKit.xcframework */,
+				FA09A6812F517FF600969148 /* Package.swift */,
+				FA09A6822F517FF600969148 /* Readme.md */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		FA09A6792F517FCA00969148 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2600;
+			};
+			buildConfigurationList = FA09A67C2F517FCA00969148 /* Build configuration list for PBXProject "KinisBalanceAIKit" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA09A6782F517FCA00969148;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		FA09A67D2F517FCA00969148 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3SLCLAF265;
+			};
+			name = Debug;
+		};
+		FA09A67E2F517FCA00969148 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3SLCLAF265;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA09A67C2F517FCA00969148 /* Build configuration list for PBXProject "KinisBalanceAIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA09A67D2F517FCA00969148 /* Debug */,
+				FA09A67E2F517FCA00969148 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA09A6792F517FCA00969148 /* Project object */;
+}
