@@ -12,7 +12,17 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             NavigationLink("Take Test") {
-                TestPage()
+                KinisBalanceApp(
+                    KinisBalanceConfig(
+                        apiKey: "Cuong",
+                        userInfo: KinisUserInfo(
+                            age: 90,
+                            lastName: "Cuong",
+                            firstName: "Le Nguyen Hoang",
+                            language: .vietnamese
+                        )
+                    )
+                )
             }
         }
     }

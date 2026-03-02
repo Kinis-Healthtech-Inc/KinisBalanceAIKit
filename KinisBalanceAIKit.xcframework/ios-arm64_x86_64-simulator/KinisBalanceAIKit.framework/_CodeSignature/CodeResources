@@ -22,48 +22,66 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0R9APDmTtWr6YWLo9EYcROxOuMo=
+		vayXmgnx0mNMCZfwItTUJWUdaNw=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		X/n9MKwYPcsqMmrxmOthCODirQY=
+		4RPFITYn4PZSNfbnT1MdCHYhjIY=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		yvw7FOluvX+vRiJtaHO3oibuoGg=
+		5c9cAIOfzCdVIoY8DqJ9elCA2AY=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		mpGiWQp/h2s10fMWwLYEesadKA4=
+		9w6YnpA0LOSS47wuMDE78mUnrqw=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		yvw7FOluvX+vRiJtaHO3oibuoGg=
+		5c9cAIOfzCdVIoY8DqJ9elCA2AY=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		G62hJ19QMMGxwAEhQoY3mOKZ67o=
+		8SHmfjYb4siC/Gbg4AbfqFXSSqw=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		X/n9MKwYPcsqMmrxmOthCODirQY=
+		4RPFITYn4PZSNfbnT1MdCHYhjIY=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		LEiPTwur9mMUOOaykVs9+aDqwW8=
+		svglEhWhfmgYdkTlY6CW8N5ASiQ=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		H/wcZA8I2D4dlQpV3qvJXR99bNw=
+		uG14eByw2pOg1vJWjbcjTzMjLSU=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		LEiPTwur9mMUOOaykVs9+aDqwW8=
+		svglEhWhfmgYdkTlY6CW8N5ASiQ=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1TPfezD8vW1VdtL1h4aZ4CuEYYE=
+		YDIJ2hM2a7s1+NTM1Y/HKlAoxlE=
 		</data>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cOXVd5zCyFx+w9Y0LESKm5kKrLo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>vi.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lWWsruEcVvx68bEnM40J3Swte3k=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -99,71 +117,89 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QXNM5vAWhlojaZdvLDyFSbCdEsgaPPiV/QG9LbUhdUc=
+			MPXAhidYHXr3KDzGlXpRgmjasODuGo2nkpgY2Gwyy0I=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HxFUblKbwC3W80W9FNWjuuIIvq2/RXOtfkAhGP+3/Ds=
+			lVifhNCWZQRcXnx5nFh32SgMWL1xM6vwmshNadpnW0s=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Oeqy31E80ZZu5NAguhUtXo81IYfZZZsyKQvMeXYh9x8=
+			tkSl/ZnZhZ1MMeFd9lNDvj/mlwBQK/i5rix9e9gjxAU=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HxFUblKbwC3W80W9FNWjuuIIvq2/RXOtfkAhGP+3/Ds=
+			lVifhNCWZQRcXnx5nFh32SgMWL1xM6vwmshNadpnW0s=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PnZx/Z+JyZ6yIFsNyCg3dYWEsjBul1ia4hSMOq9vJIQ=
+			OzG7Am/ADUbfTREfV/ovPGkqU3dVHwoiJnapXa/fiTg=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QXNM5vAWhlojaZdvLDyFSbCdEsgaPPiV/QG9LbUhdUc=
+			MPXAhidYHXr3KDzGlXpRgmjasODuGo2nkpgY2Gwyy0I=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			We7hphuauZ3TLx5ED6MOEulfEVQCdOVMEJEcXnzSzTU=
+			VTLOFaqXTur4KoIcYYD5s11AWPOA38ZfX7fl6vplUXU=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YSzcSumLPdnh1yzQmMfZkA7niUgVvhshWMsB5F/aMRs=
+			0+DzQ6mJDVr/vtIW687ltvTtHUfiAlw8a9KZUDd29lY=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			We7hphuauZ3TLx5ED6MOEulfEVQCdOVMEJEcXnzSzTU=
+			VTLOFaqXTur4KoIcYYD5s11AWPOA38ZfX7fl6vplUXU=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h8k/l4GddXAJdWFVfMgiS+jbUkjTN+qb0rEH/BmhWRo=
+			+S71AJY3u47h02jALbNUx1aiMS1bu3In8SjmQ0jQCHs=
 			</data>
+		</dict>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			u9wBJthAPv/WbLWe1wAwXWiIrbRk4XAyiICdwlYR0r8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>vi.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ewh+Ei5IdiAOLO/fPrZUk3uIb1gDXySf8g9j4iOFHLU=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>

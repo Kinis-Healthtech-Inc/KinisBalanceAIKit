@@ -43,6 +43,127 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "KinisAIKit",
+        "printedName": "KinisAIKit",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "KinisAIKit",
+        "printedName": "KinisAIKit",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -50,24 +171,30 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "TestPage",
-        "printedName": "TestPage",
+        "name": "KinisBalanceApp",
+        "printedName": "KinisBalanceApp",
         "children": [
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init()",
+            "printedName": "init(_:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "TestPage",
-                "printedName": "KinisBalanceAIKit.TestPage",
-                "usr": "s:17KinisBalanceAIKit8TestPageV"
+                "name": "KinisBalanceApp",
+                "printedName": "KinisBalanceAIKit.KinisBalanceApp",
+                "usr": "s:17KinisBalanceAIKit0aB3AppV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KinisBalanceConfig",
+                "printedName": "KinisBalanceAIKit.KinisBalanceConfig",
+                "usr": "s:17KinisBalanceAIKit0aB6ConfigV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:17KinisBalanceAIKit8TestPageVACycfc",
-            "mangledName": "$s17KinisBalanceAIKit8TestPageVACycfc",
+            "usr": "s:17KinisBalanceAIKit0aB3AppVyAcA0aB6ConfigVcfc",
+            "mangledName": "$s17KinisBalanceAIKit0aB3AppVyAcA0aB6ConfigVcfc",
             "moduleName": "KinisBalanceAIKit",
             "declAttributes": [
               "Preconcurrency",
@@ -96,8 +223,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:17KinisBalanceAIKit8TestPageV4bodyQrvp",
-            "mangledName": "$s17KinisBalanceAIKit8TestPageV4bodyQrvp",
+            "usr": "s:17KinisBalanceAIKit0aB3AppV4bodyQrvp",
+            "mangledName": "$s17KinisBalanceAIKit0aB3AppV4bodyQrvp",
             "moduleName": "KinisBalanceAIKit",
             "declAttributes": [
               "Preconcurrency",
@@ -125,8 +252,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17KinisBalanceAIKit8TestPageV4bodyQrvg",
-                "mangledName": "$s17KinisBalanceAIKit8TestPageV4bodyQrvg",
+                "usr": "s:17KinisBalanceAIKit0aB3AppV4bodyQrvg",
+                "mangledName": "$s17KinisBalanceAIKit0aB3AppV4bodyQrvg",
                 "moduleName": "KinisBalanceAIKit",
                 "accessorKind": "get"
               }
@@ -134,8 +261,8 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:17KinisBalanceAIKit8TestPageV",
-        "mangledName": "$s17KinisBalanceAIKit8TestPageV",
+        "usr": "s:17KinisBalanceAIKit0aB3AppV",
+        "mangledName": "$s17KinisBalanceAIKit0aB3AppV",
         "moduleName": "KinisBalanceAIKit",
         "declAttributes": [
           "Preconcurrency",
@@ -197,8 +324,8 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "KinisBalanceAIKit",
         "declAttributes": [
@@ -206,39 +333,111 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "KinisAIKit",
-        "printedName": "KinisAIKit",
-        "declKind": "Import",
+        "kind": "TypeDecl",
+        "name": "KinisBalanceConfig",
+        "printedName": "KinisBalanceConfig",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(apiKey:userInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KinisBalanceConfig",
+                "printedName": "KinisBalanceAIKit.KinisBalanceConfig",
+                "usr": "s:17KinisBalanceAIKit0aB6ConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KinisUserInfo",
+                "printedName": "KinisBalanceAIKit.KinisUserInfo",
+                "usr": "s:17KinisBalanceAIKit0A8UserInfoV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17KinisBalanceAIKit0aB6ConfigV6apiKey8userInfoACSS_AA0a4UserH0Vtcfc",
+            "mangledName": "$s17KinisBalanceAIKit0aB6ConfigV6apiKey8userInfoACSS_AA0a4UserH0Vtcfc",
+            "moduleName": "KinisBalanceAIKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KinisBalanceConfig",
+                "printedName": "KinisBalanceAIKit.KinisBalanceConfig",
+                "usr": "s:17KinisBalanceAIKit0aB6ConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KinisBalanceConfig",
+                "printedName": "KinisBalanceAIKit.KinisBalanceConfig",
+                "usr": "s:17KinisBalanceAIKit0aB6ConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KinisBalanceAIKit0aB6ConfigV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17KinisBalanceAIKit0aB6ConfigV2eeoiySbAC_ACtFZ",
+            "moduleName": "KinisBalanceAIKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17KinisBalanceAIKit0aB6ConfigV",
+        "mangledName": "$s17KinisBalanceAIKit0aB6ConfigV",
         "moduleName": "KinisBalanceAIKit",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
         ]
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "KinisBalanceAIKit",
         "declAttributes": [
@@ -246,38 +445,341 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit"
-      },
-      {
-        "kind": "Import",
-        "name": "KinisAIKit",
-        "printedName": "KinisAIKit",
-        "declKind": "Import",
+        "kind": "TypeDecl",
+        "name": "KinisAppLanguage",
+        "printedName": "KinisAppLanguage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "english",
+            "printedName": "english",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KinisBalanceAIKit.KinisAppLanguage.Type) -> KinisBalanceAIKit.KinisAppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KinisAppLanguage",
+                    "printedName": "KinisBalanceAIKit.KinisAppLanguage",
+                    "usr": "s:17KinisBalanceAIKit0A11AppLanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "KinisBalanceAIKit.KinisAppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KinisAppLanguage",
+                        "printedName": "KinisBalanceAIKit.KinisAppLanguage",
+                        "usr": "s:17KinisBalanceAIKit0A11AppLanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17KinisBalanceAIKit0A11AppLanguageO7englishyA2CmF",
+            "mangledName": "$s17KinisBalanceAIKit0A11AppLanguageO7englishyA2CmF",
+            "moduleName": "KinisBalanceAIKit"
+          },
+          {
+            "kind": "Var",
+            "name": "vietnamese",
+            "printedName": "vietnamese",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KinisBalanceAIKit.KinisAppLanguage.Type) -> KinisBalanceAIKit.KinisAppLanguage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KinisAppLanguage",
+                    "printedName": "KinisBalanceAIKit.KinisAppLanguage",
+                    "usr": "s:17KinisBalanceAIKit0A11AppLanguageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "KinisBalanceAIKit.KinisAppLanguage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KinisAppLanguage",
+                        "printedName": "KinisBalanceAIKit.KinisAppLanguage",
+                        "usr": "s:17KinisBalanceAIKit0A11AppLanguageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17KinisBalanceAIKit0A11AppLanguageO10vietnameseyA2CmF",
+            "mangledName": "$s17KinisBalanceAIKit0A11AppLanguageO10vietnameseyA2CmF",
+            "moduleName": "KinisBalanceAIKit"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KinisBalanceAIKit.KinisAppLanguage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KinisAppLanguage",
+                    "printedName": "KinisBalanceAIKit.KinisAppLanguage",
+                    "usr": "s:17KinisBalanceAIKit0A11AppLanguageO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17KinisBalanceAIKit0A11AppLanguageO8rawValueACSgSS_tcfc",
+            "mangledName": "$s17KinisBalanceAIKit0A11AppLanguageO8rawValueACSgSS_tcfc",
+            "moduleName": "KinisBalanceAIKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17KinisBalanceAIKit0A11AppLanguageO8rawValueSSvp",
+            "mangledName": "$s17KinisBalanceAIKit0A11AppLanguageO8rawValueSSvp",
+            "moduleName": "KinisBalanceAIKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17KinisBalanceAIKit0A11AppLanguageO8rawValueSSvg",
+                "mangledName": "$s17KinisBalanceAIKit0A11AppLanguageO8rawValueSSvg",
+                "moduleName": "KinisBalanceAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17KinisBalanceAIKit0A11AppLanguageO",
+        "mangledName": "$s17KinisBalanceAIKit0A11AppLanguageO",
         "moduleName": "KinisBalanceAIKit",
         "declAttributes": [
           "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KinisUserInfo",
+        "printedName": "KinisUserInfo",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(age:lastName:firstName:language:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KinisUserInfo",
+                "printedName": "KinisBalanceAIKit.KinisUserInfo",
+                "usr": "s:17KinisBalanceAIKit0A8UserInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KinisAppLanguage",
+                "printedName": "KinisBalanceAIKit.KinisAppLanguage",
+                "usr": "s:17KinisBalanceAIKit0A11AppLanguageO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17KinisBalanceAIKit0A8UserInfoV3age8lastName05firstH08languageACSi_S2SAA0A11AppLanguageOtcfc",
+            "mangledName": "$s17KinisBalanceAIKit0A8UserInfoV3age8lastName05firstH08languageACSi_S2SAA0A11AppLanguageOtcfc",
+            "moduleName": "KinisBalanceAIKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KinisUserInfo",
+                "printedName": "KinisBalanceAIKit.KinisUserInfo",
+                "usr": "s:17KinisBalanceAIKit0A8UserInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KinisUserInfo",
+                "printedName": "KinisBalanceAIKit.KinisUserInfo",
+                "usr": "s:17KinisBalanceAIKit0A8UserInfoV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KinisBalanceAIKit0A8UserInfoV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17KinisBalanceAIKit0A8UserInfoV2eeoiySbAC_ACtFZ",
+            "moduleName": "KinisBalanceAIKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17KinisBalanceAIKit0A8UserInfoV",
+        "mangledName": "$s17KinisBalanceAIKit0A8UserInfoV",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
         ]
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "KinisBalanceAIKit",
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit"
       },
       {
         "kind": "TypeDecl",
@@ -855,51 +1357,51 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Camera\/TestCameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/Camera\/TestCameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 347,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Camera\/TestCameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/Camera\/TestCameraManager.swift",
       "kind": "FloatLiteral",
       "offset": 564,
       "length": 4,
       "value": "0.75"
     },
     {
-      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Camera\/TestCameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/Camera\/TestCameraManager.swift",
       "kind": "FloatLiteral",
       "offset": 620,
       "length": 4,
       "value": "0.75"
     },
     {
-      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Camera\/TestCameraManager.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/Camera\/TestCameraManager.swift",
       "kind": "FloatLiteral",
       "offset": 672,
       "length": 4,
       "value": "0.75"
     },
     {
-      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Public\/TestPage.swift",
-      "kind": "BooleanLiteral",
-      "offset": 322,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/UI\/TakeSLSTestPageModel.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/TakeSLSTestPageModel.swift",
       "kind": "IntegerLiteral",
       "offset": 707,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Common.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/TestPage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 313,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Common.swift",
       "kind": "IntegerLiteral",
-      "offset": 106,
+      "offset": 124,
       "length": 2,
       "value": "60"
     }

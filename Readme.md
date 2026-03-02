@@ -19,11 +19,21 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             NavigationLink("Take Test") {
-                TestPage()
+                KinisBalanceApp(
+                    KinisBalanceConfig(
+                        apiKey: "Cuong",
+                        userInfo: KinisUserInfo(
+                            age: 90,
+                            lastName: "Marc",
+                            firstName: "Hoang",
+                            language: .vietnamese
+                        )
+                    )
+                )
             }
         }
     }
 }
 ```
 
-This SDK needs camera, so please add `Privacy - Camera Usage Description`
+This SDK needs camera, so please add `Privacy - Camera Usage Description` in your app's Info.plist
