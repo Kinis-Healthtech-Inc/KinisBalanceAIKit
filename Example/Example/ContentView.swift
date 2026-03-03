@@ -14,11 +14,12 @@ struct ContentView: View {
             NavigationLink("Take Test") {
                 KinisBalanceApp(
                     KinisBalanceConfig(
-                        apiKey: "Cuong",
+                        apiKey: "lDFklwecvlakj",
                         userInfo: KinisUserInfo(
+                            id: "123",
                             age: 90,
-                            lastName: "Cuong",
-                            firstName: "Le Nguyen Hoang",
+                            lastName: "Hoang",
+                            firstName: "Marc",
                             language: .vietnamese
                         )
                     )

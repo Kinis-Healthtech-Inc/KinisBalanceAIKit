@@ -4,13 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		9qFN532BUqz73YqsV9qIovbqkb4=
+		</data>
 		<key>Frameworks/KinisAIKit.framework/Info.plist</key>
 		<data>
 		GXLXiKiWtiUO4VIkdXuOzcpQMbc=
 		</data>
 		<key>Frameworks/KinisAIKit.framework/KinisAIKit</key>
 		<data>
-		Orv8vl8btV53ogHLmX3kgEPfZxA=
+		/Lh1YJ81ca2SVCv4E9dKfUSyWo0=
 		</data>
 		<key>Frameworks/KinisAIKit.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -26,11 +30,11 @@
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		4RPFITYn4PZSNfbnT1MdCHYhjIY=
+		KMpYp0eudRTcy+bc3lOFH/ssXBE=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		9D/5aLFPC994EF68m+WD9mB73GM=
+		EvRkh9gf/izDr3cWah9VOny+y6s=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -38,11 +42,11 @@
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		9D/5aLFPC994EF68m+WD9mB73GM=
+		EvRkh9gf/izDr3cWah9VOny+y6s=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		kapoyW60pE/kbzeQDEFTrvB2niU=
+		aW6p/sE0EhAgWqH1g9OKpMD3n+Y=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
@@ -65,6 +69,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			d0+3aCN3Ykmw5JndWkt7mvkL0R0cL6XswAPwDhRb7DI=
+			</data>
+		</dict>
 		<key>Frameworks/KinisAIKit.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -76,7 +87,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HLK6zZz18hnK0wsbwRH7rPRrP/ZyNcEnGO1dlJTuNS0=
+			3RqswnTbc8u06+LNF+f/96KbI33OTn0r3u42z6ldSCs=
 			</data>
 		</dict>
 		<key>Frameworks/KinisAIKit.framework/_CodeSignature/CodeResources</key>
@@ -97,14 +108,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MPXAhidYHXr3KDzGlXpRgmjasODuGo2nkpgY2Gwyy0I=
+			MpbdXg+LRyFenE4ddtIZ/UveKgBGbgRCC02OPfPok8E=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4YtTtjbJnJ2tid5ZPSITxGMJ4TXTeL2jH59qo6zvKP4=
+			sJrpU5dSJwzHRIhaEUQ/DzyTp6pwFNLpcPEEmsM59ac=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -118,14 +129,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4YtTtjbJnJ2tid5ZPSITxGMJ4TXTeL2jH59qo6zvKP4=
+			sJrpU5dSJwzHRIhaEUQ/DzyTp6pwFNLpcPEEmsM59ac=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HC0E6ft3Zp/NgysYaCRqrGmk4DBkY2sH/LWY+Abg6F4=
+			Yx4AYtAaTfDjWpBHBnMps7lXsSfd3D/ftq8eWKFz3d8=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>

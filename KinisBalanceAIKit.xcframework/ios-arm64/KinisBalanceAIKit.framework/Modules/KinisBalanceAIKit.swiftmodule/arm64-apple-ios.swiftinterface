@@ -4,12 +4,19 @@
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AVFoundation
 import Combine
+import DeveloperToolsSupport
 import Foundation
 import Swift
 import SwiftUI
+import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public func LogD(_ message: @autoclosure () -> Swift.String)
+public func LogI(_ message: @autoclosure () -> Swift.String)
+public func LogW(_ message: @autoclosure () -> Swift.String)
+public func LogE(_ message: @autoclosure () -> Swift.String)
+
 #if compiler(>=5.3) && $NonescapableTypes
 extension Swift.Optional {
   public func unwrap(file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line) throws -> Wrapped
@@ -22,9 +29,8 @@ extension Swift.Optional {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s17KinisBalanceAIKit0aB3AppV4bodyQrvp", 0) __
 }
-public struct KinisBalanceConfig : Swift.Equatable {
+public struct KinisBalanceConfig {
   public init(apiKey: Swift.String, userInfo: KinisBalanceAIKit.KinisUserInfo)
-  public static func == (a: KinisBalanceAIKit.KinisBalanceConfig, b: KinisBalanceAIKit.KinisBalanceConfig) -> Swift.Bool
 }
 public enum KinisAppLanguage : Swift.String, Swift.Equatable {
   case english
@@ -38,7 +44,7 @@ public enum KinisAppLanguage : Swift.String, Swift.Equatable {
   }
 }
 public struct KinisUserInfo : Swift.Equatable {
-  public init(age: Swift.Int, lastName: Swift.String, firstName: Swift.String, language: KinisBalanceAIKit.KinisAppLanguage)
+  public init(id: Swift.String, age: Swift.Int, lastName: Swift.String, firstName: Swift.String, language: KinisBalanceAIKit.KinisAppLanguage)
   public static func == (a: KinisBalanceAIKit.KinisUserInfo, b: KinisBalanceAIKit.KinisUserInfo) -> Swift.Bool
 }
 extension KinisBalanceAIKit.KinisBalanceApp : Swift.Sendable {}
