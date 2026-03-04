@@ -37,6 +37,27 @@
       },
       {
         "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -356,6 +377,16 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -379,6 +410,16 @@
         "moduleName": "KinisBalanceAIKit",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -407,6 +448,80 @@
         "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "KinisBalanceAIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -804,8 +919,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "KinisAppLanguage",
-        "printedName": "KinisAppLanguage",
+        "name": "AppLanguage",
+        "printedName": "AppLanguage",
         "children": [
           {
             "kind": "Var",
@@ -815,24 +930,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(KinisBalanceAIKit.KinisAppLanguage.Type) -> KinisBalanceAIKit.KinisAppLanguage",
+                "printedName": "(KinisBalanceAIKit.AppLanguage.Type) -> KinisBalanceAIKit.AppLanguage",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "KinisAppLanguage",
-                    "printedName": "KinisBalanceAIKit.KinisAppLanguage",
-                    "usr": "s:17KinisBalanceAIKit0A11AppLanguageO"
+                    "name": "AppLanguage",
+                    "printedName": "KinisBalanceAIKit.AppLanguage",
+                    "usr": "s:17KinisBalanceAIKit11AppLanguageO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "KinisBalanceAIKit.KinisAppLanguage.Type",
+                    "printedName": "KinisBalanceAIKit.AppLanguage.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "KinisAppLanguage",
-                        "printedName": "KinisBalanceAIKit.KinisAppLanguage",
-                        "usr": "s:17KinisBalanceAIKit0A11AppLanguageO"
+                        "name": "AppLanguage",
+                        "printedName": "KinisBalanceAIKit.AppLanguage",
+                        "usr": "s:17KinisBalanceAIKit11AppLanguageO"
                       }
                     ]
                   }
@@ -840,8 +955,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:17KinisBalanceAIKit0A11AppLanguageO7englishyA2CmF",
-            "mangledName": "$s17KinisBalanceAIKit0A11AppLanguageO7englishyA2CmF",
+            "usr": "s:17KinisBalanceAIKit11AppLanguageO7englishyA2CmF",
+            "mangledName": "$s17KinisBalanceAIKit11AppLanguageO7englishyA2CmF",
             "moduleName": "KinisBalanceAIKit"
           },
           {
@@ -852,24 +967,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(KinisBalanceAIKit.KinisAppLanguage.Type) -> KinisBalanceAIKit.KinisAppLanguage",
+                "printedName": "(KinisBalanceAIKit.AppLanguage.Type) -> KinisBalanceAIKit.AppLanguage",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "KinisAppLanguage",
-                    "printedName": "KinisBalanceAIKit.KinisAppLanguage",
-                    "usr": "s:17KinisBalanceAIKit0A11AppLanguageO"
+                    "name": "AppLanguage",
+                    "printedName": "KinisBalanceAIKit.AppLanguage",
+                    "usr": "s:17KinisBalanceAIKit11AppLanguageO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "KinisBalanceAIKit.KinisAppLanguage.Type",
+                    "printedName": "KinisBalanceAIKit.AppLanguage.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "KinisAppLanguage",
-                        "printedName": "KinisBalanceAIKit.KinisAppLanguage",
-                        "usr": "s:17KinisBalanceAIKit0A11AppLanguageO"
+                        "name": "AppLanguage",
+                        "printedName": "KinisBalanceAIKit.AppLanguage",
+                        "usr": "s:17KinisBalanceAIKit11AppLanguageO"
                       }
                     ]
                   }
@@ -877,8 +992,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:17KinisBalanceAIKit0A11AppLanguageO10vietnameseyA2CmF",
-            "mangledName": "$s17KinisBalanceAIKit0A11AppLanguageO10vietnameseyA2CmF",
+            "usr": "s:17KinisBalanceAIKit11AppLanguageO10vietnameseyA2CmF",
+            "mangledName": "$s17KinisBalanceAIKit11AppLanguageO10vietnameseyA2CmF",
             "moduleName": "KinisBalanceAIKit"
           },
           {
@@ -889,13 +1004,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "KinisBalanceAIKit.KinisAppLanguage?",
+                "printedName": "KinisBalanceAIKit.AppLanguage?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "KinisAppLanguage",
-                    "printedName": "KinisBalanceAIKit.KinisAppLanguage",
-                    "usr": "s:17KinisBalanceAIKit0A11AppLanguageO"
+                    "name": "AppLanguage",
+                    "printedName": "KinisBalanceAIKit.AppLanguage",
+                    "usr": "s:17KinisBalanceAIKit11AppLanguageO"
                   }
                 ],
                 "usr": "s:Sq"
@@ -908,8 +1023,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:17KinisBalanceAIKit0A11AppLanguageO8rawValueACSgSS_tcfc",
-            "mangledName": "$s17KinisBalanceAIKit0A11AppLanguageO8rawValueACSgSS_tcfc",
+            "usr": "s:17KinisBalanceAIKit11AppLanguageO8rawValueACSgSS_tcfc",
+            "mangledName": "$s17KinisBalanceAIKit11AppLanguageO8rawValueACSgSS_tcfc",
             "moduleName": "KinisBalanceAIKit",
             "implicit": true,
             "init_kind": "Designated"
@@ -927,8 +1042,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:17KinisBalanceAIKit0A11AppLanguageO8rawValueSSvp",
-            "mangledName": "$s17KinisBalanceAIKit0A11AppLanguageO8rawValueSSvp",
+            "usr": "s:17KinisBalanceAIKit11AppLanguageO8rawValueSSvp",
+            "mangledName": "$s17KinisBalanceAIKit11AppLanguageO8rawValueSSvp",
             "moduleName": "KinisBalanceAIKit",
             "implicit": true,
             "accessors": [
@@ -945,8 +1060,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:17KinisBalanceAIKit0A11AppLanguageO8rawValueSSvg",
-                "mangledName": "$s17KinisBalanceAIKit0A11AppLanguageO8rawValueSSvg",
+                "usr": "s:17KinisBalanceAIKit11AppLanguageO8rawValueSSvg",
+                "mangledName": "$s17KinisBalanceAIKit11AppLanguageO8rawValueSSvg",
                 "moduleName": "KinisBalanceAIKit",
                 "implicit": true,
                 "accessorKind": "get"
@@ -955,8 +1070,8 @@
           }
         ],
         "declKind": "Enum",
-        "usr": "s:17KinisBalanceAIKit0A11AppLanguageO",
-        "mangledName": "$s17KinisBalanceAIKit0A11AppLanguageO",
+        "usr": "s:17KinisBalanceAIKit11AppLanguageO",
+        "mangledName": "$s17KinisBalanceAIKit11AppLanguageO",
         "moduleName": "KinisBalanceAIKit",
         "declAttributes": [
           "AccessControl"
@@ -1057,14 +1172,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "KinisAppLanguage",
-                "printedName": "KinisBalanceAIKit.KinisAppLanguage",
-                "usr": "s:17KinisBalanceAIKit0A11AppLanguageO"
+                "name": "AppLanguage",
+                "printedName": "KinisBalanceAIKit.AppLanguage",
+                "usr": "s:17KinisBalanceAIKit11AppLanguageO"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:17KinisBalanceAIKit0A8UserInfoV2id3age8lastName05firstI08languageACSS_SiS2SAA0A11AppLanguageOtcfc",
-            "mangledName": "$s17KinisBalanceAIKit0A8UserInfoV2id3age8lastName05firstI08languageACSS_SiS2SAA0A11AppLanguageOtcfc",
+            "usr": "s:17KinisBalanceAIKit0A8UserInfoV2id3age8lastName05firstI08languageACSS_SiS2SAA11AppLanguageOtcfc",
+            "mangledName": "$s17KinisBalanceAIKit0A8UserInfoV2id3age8lastName05firstI08languageACSS_SiS2SAA11AppLanguageOtcfc",
             "moduleName": "KinisBalanceAIKit",
             "declAttributes": [
               "AccessControl"
@@ -1749,6 +1864,20 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Data\/APIClient\/Decoder.swift",
+      "kind": "StringLiteral",
+      "offset": 739,
+      "length": 25,
+      "value": "\"Invalid date: \""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Data\/APIClient\/Decoder.swift",
+      "kind": "StringLiteral",
+      "offset": 763,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Data\/KinisAPIError+Logger.swift",
       "kind": "StringLiteral",
       "offset": 1363,
@@ -1882,39 +2011,354 @@
       "value": "\"should_disable\""
     },
     {
-      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/GetConfigUseCase.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
       "kind": "StringLiteral",
-      "offset": 901,
+      "offset": 495,
+      "length": 21,
+      "value": "\"left_leg_assessment\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 551,
+      "length": 22,
+      "value": "\"right_leg_assessment\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 604,
+      "length": 19,
+      "value": "\"left_leg_ai_error\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 655,
+      "length": 20,
+      "value": "\"right_leg_ai_error\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 701,
       "length": 12,
-      "value": "\"api_config\""
+      "value": "\"session_id\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 742,
+      "length": 15,
+      "value": "\"average_score\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 781,
+      "length": 10,
+      "value": "\"age_norm\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 951,
+      "length": 17,
+      "value": "\"age_group_label\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 997,
+      "length": 31,
+      "value": "\"age_group_expected_time_range\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 1461,
+      "length": 17,
+      "value": "\"test_variant_id\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 1507,
+      "length": 15,
+      "value": "\"score_display\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 1548,
+      "length": 12,
+      "value": "\"time_score\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 1586,
+      "length": 12,
+      "value": "\"body_score\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 1626,
+      "length": 14,
+      "value": "\"pelvis_score\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 1667,
+      "length": 13,
+      "value": "\"trunk_score\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 1707,
+      "length": 13,
+      "value": "\"ankle_score\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 1749,
+      "length": 15,
+      "value": "\"standing_time\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 1794,
+      "length": 17,
+      "value": "\"video_cache_key\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 1837,
+      "length": 12,
+      "value": "\"created_at\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2036,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2068,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2121,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 2177,
+      "length": 7,
+      "value": "\"18-39\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2212,
+      "length": 2,
+      "value": "51"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 2307,
+      "length": 21,
+      "value": "\"assessment_left_001\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 2353,
+      "length": 17,
+      "value": "\"stance_left_leg\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 2394,
+      "length": 4,
+      "value": "\"30\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2419,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2441,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2465,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2488,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2511,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2536,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 2563,
+      "length": 21,
+      "value": "\"mock_left_leg_video\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 2605,
+      "length": 26,
+      "value": "\"2025-12-31T09:36:54.386Z\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 2690,
+      "length": 22,
+      "value": "\"assessment_right_001\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 2737,
+      "length": 17,
+      "value": "\"stance_left_leg\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 2778,
+      "length": 4,
+      "value": "\"20\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2803,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2825,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2849,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2872,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2895,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2920,
+      "length": 2,
+      "value": "38"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 2947,
+      "length": 22,
+      "value": "\"mock_right_leg_video\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/QuickSLSAssessments.swift",
+      "kind": "StringLiteral",
+      "offset": 2990,
+      "length": 26,
+      "value": "\"2025-12-31T09:36:54.386Z\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/GetConfigUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 1009,
+      "offset": 750,
       "length": 9,
       "value": "\"\/config\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/GetSummayUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 767,
-      "length": 22,
-      "value": "\"\/assessments\/summary\""
-    },
-    {
-      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/GetSummayUseCase.swift",
-      "kind": "StringLiteral",
-      "offset": 1040,
+      "offset": 985,
       "length": 21,
       "value": "\"improvement_percent\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/GetSummayUseCase.swift",
       "kind": "StringLiteral",
-      "offset": 1088,
-      "length": 13,
-      "value": "\"total_tests\""
+      "offset": 1041,
+      "length": 12,
+      "value": "\"total_test\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/GetSummayUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 1149,
+      "length": 22,
+      "value": "\"\/assessments\/summary\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/App\/_KinisBalanceApp.swift",
@@ -1973,11 +2417,193 @@
       "value": "0.75"
     },
     {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1418,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1456,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1492,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1538,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2207,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2366,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3224,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4857,
+      "length": 1,
+      "value": "3"
+    },
+    {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/LoadingView.swift",
       "kind": "BooleanLiteral",
       "offset": 167,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/RoundedRingChart.swift",
+      "kind": "IntegerLiteral",
+      "offset": 184,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/RoundedRingChart.swift",
+      "kind": "IntegerLiteral",
+      "offset": 231,
+      "length": 3,
+      "value": "270"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/RoundedRingChart.swift",
+      "kind": "IntegerLiteral",
+      "offset": 646,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/RoundedRingChart.swift",
+      "kind": "IntegerLiteral",
+      "offset": 974,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/RoundedRingChart.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1000,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/RoundedRingChart.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1030,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/Home\/Models\/HealthRisk+Factory.swift",
+      "kind": "StringLiteral",
+      "offset": 1606,
+      "length": 9,
+      "value": "\"Warning\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/Home\/Models\/HealthRisk+Factory.swift",
+      "kind": "StringLiteral",
+      "offset": 1669,
+      "length": 30,
+      "value": "\"HealthRisk.High.BalanceLabel\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/Home\/Models\/HealthRisk+Factory.swift",
+      "kind": "StringLiteral",
+      "offset": 1735,
+      "length": 35,
+      "value": "\"HealthRisk.High.BalanceLabel.Mini\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/Home\/Models\/HealthRisk+Factory.swift",
+      "kind": "StringLiteral",
+      "offset": 1800,
+      "length": 6,
+      "value": "\"0\/20\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/Home\/Models\/HealthRisk+Factory.swift",
+      "kind": "StringLiteral",
+      "offset": 2089,
+      "length": 9,
+      "value": "\"Warning\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/Home\/Models\/HealthRisk+Factory.swift",
+      "kind": "StringLiteral",
+      "offset": 2152,
+      "length": 34,
+      "value": "\"HealthRisk.Moderate.BalanceLabel\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/Home\/Models\/HealthRisk+Factory.swift",
+      "kind": "StringLiteral",
+      "offset": 2222,
+      "length": 39,
+      "value": "\"HealthRisk.Moderate.BalanceLabel.Mini\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/Home\/Models\/HealthRisk+Factory.swift",
+      "kind": "StringLiteral",
+      "offset": 2291,
+      "length": 7,
+      "value": "\"10\/20\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/Home\/Models\/HealthRisk+Factory.swift",
+      "kind": "StringLiteral",
+      "offset": 2568,
+      "length": 13,
+      "value": "\"ShieldCheck\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/Home\/Models\/HealthRisk+Factory.swift",
+      "kind": "StringLiteral",
+      "offset": 2635,
+      "length": 29,
+      "value": "\"HealthRisk.Low.BalanceLabel\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/Home\/Models\/HealthRisk+Factory.swift",
+      "kind": "StringLiteral",
+      "offset": 2700,
+      "length": 34,
+      "value": "\"HealthRisk.Low.BalanceLabel.Mini\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/Home\/Models\/HealthRisk+Factory.swift",
+      "kind": "StringLiteral",
+      "offset": 2764,
+      "length": 7,
+      "value": "\"20\/20\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/TakeSLSTestPageModel.swift",
@@ -2003,14 +2629,182 @@
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 738,
+      "offset": 626,
+      "length": 11,
+      "value": "\"bgprimary\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 767,
+      "length": 12,
+      "value": "\"bgriskhigh\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 911,
+      "length": 13,
+      "value": "\"bgriskhigh2\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1052,
+      "length": 11,
+      "value": "\"bgrisklow\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1193,
+      "length": 12,
+      "value": "\"bgrisklow2\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1337,
+      "length": 13,
+      "value": "\"bgriskmode2\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1482,
+      "length": 13,
+      "value": "\"bgriskmorde\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1627,
+      "length": 13,
+      "value": "\"bgsecondary\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1772,
+      "length": 13,
+      "value": "\"bordercolor\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1919,
+      "length": 14,
+      "value": "\"btnsecondary\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2069,
+      "length": 15,
+      "value": "\"chartriskhigh\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2218,
+      "length": 14,
+      "value": "\"chartrisklow\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2370,
+      "length": 16,
+      "value": "\"chartriskmorde\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2516,
+      "length": 12,
+      "value": "\"inputerror\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2654,
+      "length": 10,
+      "value": "\"maintext\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2798,
+      "length": 14,
+      "value": "\"textriskhigh\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2944,
+      "length": 13,
+      "value": "\"textrisklow\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3093,
+      "length": 15,
+      "value": "\"textriskmorde\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3244,
+      "length": 15,
+      "value": "\"textsecondary\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3393,
+      "length": 14,
+      "value": "\"titlerisklow\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3640,
+      "length": 11,
+      "value": "\"CaretDown\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3775,
+      "length": 9,
+      "value": "\"CaretUp\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3916,
+      "length": 13,
+      "value": "\"ShieldCheck\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4053,
+      "length": 9,
+      "value": "\"Warning\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4197,
       "length": 15,
       "value": "\"logo-gradient\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 892,
+      "offset": 4351,
       "length": 17,
       "value": "\"splashscreen_bg\""
     }

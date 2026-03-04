@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		9qFN532BUqz73YqsV9qIovbqkb4=
+		BXM8nWIqGoQhcMst3GHSWe1YqlE=
 		</data>
 		<key>Frameworks/KinisAIKit.framework/Info.plist</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Frameworks/KinisAIKit.framework/KinisAIKit</key>
 		<data>
-		/Lh1YJ81ca2SVCv4E9dKfUSyWo0=
+		KgM/hZec0TjyEpoGxKUUWTJODa4=
 		</data>
 		<key>Frameworks/KinisAIKit.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -26,15 +26,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		V+g9+MlkYZ4xg+RKUsIinhZOy1g=
+		htcKeICmSuy9mgrNXLmAK16GImY=
+		</data>
+		<key>Manrope-VariableFont_wght.ttf</key>
+		<data>
+		sZDJMdIAwOclY8lKX3Voymm9uLY=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		KMpYp0eudRTcy+bc3lOFH/ssXBE=
+		692UI0UiQwDuWmTT9NIp8xBTHJc=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		EvRkh9gf/izDr3cWah9VOny+y6s=
+		6ij5tIGu86hM2xQngLubMvHZzN0=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -42,17 +46,30 @@
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		EvRkh9gf/izDr3cWah9VOny+y6s=
+		6ij5tIGu86hM2xQngLubMvHZzN0=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		aW6p/sE0EhAgWqH1g9OKpMD3n+Y=
+		TvPvGRGMBu6Atbo1BIizXWy7XLk=
+		</data>
+		<key>Phudu-VariableFont_wght.ttf</key>
+		<data>
+		HDDe1bhqjbwPr5ysSDUOIFrNWgc=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cOXVd5zCyFx+w9Y0LESKm5kKrLo=
+			LwFGNo1GhQ+X6GY6G+pFSkHYFwQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en.lproj/Localizable.stringsdict</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			52C0Vb3ozi+O0f6dCXNrKD4mY2I=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -61,7 +78,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lWWsruEcVvx68bEnM40J3Swte3k=
+			VA9i9OqpQxYStQj23VizQDwqSSA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>vi.lproj/Localizable.stringsdict</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			55CeV+hzWc0McikHidPXFwoP1m4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -73,7 +99,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d0+3aCN3Ykmw5JndWkt7mvkL0R0cL6XswAPwDhRb7DI=
+			h/PFuKuMI6Ti98CLqBh95Z8q8j5eHH8aaNXvSco3nG8=
 			</data>
 		</dict>
 		<key>Frameworks/KinisAIKit.framework/Info.plist</key>
@@ -87,7 +113,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3RqswnTbc8u06+LNF+f/96KbI33OTn0r3u42z6ldSCs=
+			pFhbrsTIprxZ69rPjL7tiE/vDkBDsoddHCwBkQIbdMU=
 			</data>
 		</dict>
 		<key>Frameworks/KinisAIKit.framework/_CodeSignature/CodeResources</key>
@@ -104,18 +130,25 @@
 			ZEN6+DimXRjlunoNObRlVABpvIqugwjePjGKrTH8vHs=
 			</data>
 		</dict>
+		<key>Manrope-VariableFont_wght.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			K3oevIDHkkb6obbnCTx7kd4qTO7bm5orL6Bc+b+Md80=
+			</data>
+		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MpbdXg+LRyFenE4ddtIZ/UveKgBGbgRCC02OPfPok8E=
+			fa4oC94QOLLEuDLsjrXHEqG3KnalTg82ZEeqsLg5XQ0=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sJrpU5dSJwzHRIhaEUQ/DzyTp6pwFNLpcPEEmsM59ac=
+			afuFc2r3gl/YzJtLbJfvyjF3eI87bOEYGdXk06VTFNo=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -129,21 +162,37 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sJrpU5dSJwzHRIhaEUQ/DzyTp6pwFNLpcPEEmsM59ac=
+			afuFc2r3gl/YzJtLbJfvyjF3eI87bOEYGdXk06VTFNo=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yx4AYtAaTfDjWpBHBnMps7lXsSfd3D/ftq8eWKFz3d8=
+			YikCrrxGuFmHuwnWQ6ikKiieMA9K1txnBHcnG8/5GM0=
+			</data>
+		</dict>
+		<key>Phudu-VariableFont_wght.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JFR5nyFxHT+E+RHzDX59j3DOgfW0QdGFAeMhRLNC0eM=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u9wBJthAPv/WbLWe1wAwXWiIrbRk4XAyiICdwlYR0r8=
+			leqB/+zdNQRWGYRXnKpLumqMoxo/lHDtJEQcwJHHxs4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en.lproj/Localizable.stringsdict</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qamm4QE2Hrv5533hZEU1N0zI1q+qCSnRKx/x+auZDb8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -152,7 +201,16 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ewh+Ei5IdiAOLO/fPrZUk3uIb1gDXySf8g9j4iOFHLU=
+			OaR/EkF8LMNUGeeeYV+LAJOTopJON6slE5MEC3KKpLA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>vi.lproj/Localizable.stringsdict</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			V5kBYOYIGcisIkTCbejOhYRMlAkoZvlmc80Vm5P7y08=
 			</data>
 			<key>optional</key>
 			<true/>

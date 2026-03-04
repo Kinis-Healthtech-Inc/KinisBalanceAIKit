@@ -16,7 +16,6 @@ public func LogD(_ message: @autoclosure () -> Swift.String)
 public func LogI(_ message: @autoclosure () -> Swift.String)
 public func LogW(_ message: @autoclosure () -> Swift.String)
 public func LogE(_ message: @autoclosure () -> Swift.String)
-
 #if compiler(>=5.3) && $NonescapableTypes
 extension Swift.Optional {
   public func unwrap(file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line) throws -> Wrapped
@@ -32,7 +31,7 @@ extension Swift.Optional {
 public struct KinisBalanceConfig {
   public init(apiKey: Swift.String, userInfo: KinisBalanceAIKit.KinisUserInfo)
 }
-public enum KinisAppLanguage : Swift.String, Swift.Equatable {
+public enum AppLanguage : Swift.String, Swift.Equatable {
   case english
   case vietnamese
   #if compiler(>=5.3) && $NonescapableTypes
@@ -44,9 +43,9 @@ public enum KinisAppLanguage : Swift.String, Swift.Equatable {
   }
 }
 public struct KinisUserInfo : Swift.Equatable {
-  public init(id: Swift.String, age: Swift.Int, lastName: Swift.String, firstName: Swift.String, language: KinisBalanceAIKit.KinisAppLanguage)
+  public init(id: Swift.String, age: Swift.Int, lastName: Swift.String, firstName: Swift.String, language: KinisBalanceAIKit.AppLanguage)
   public static func == (a: KinisBalanceAIKit.KinisUserInfo, b: KinisBalanceAIKit.KinisUserInfo) -> Swift.Bool
 }
 extension KinisBalanceAIKit.KinisBalanceApp : Swift.Sendable {}
-extension KinisBalanceAIKit.KinisAppLanguage : Swift.Hashable {}
-extension KinisBalanceAIKit.KinisAppLanguage : Swift.RawRepresentable {}
+extension KinisBalanceAIKit.AppLanguage : Swift.Hashable {}
+extension KinisBalanceAIKit.AppLanguage : Swift.RawRepresentable {}

@@ -10,10 +10,6 @@ import SwiftUI
 @main
 struct ExampleApp: App {
     
-//    init() {
-//        KinisLogger.shared.setup()
-//    }
-    
     var body: some Scene {
         WindowGroup {
             ContentView()
