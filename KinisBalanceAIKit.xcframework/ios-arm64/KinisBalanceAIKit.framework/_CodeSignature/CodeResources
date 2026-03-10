@@ -6,7 +6,19 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		BXM8nWIqGoQhcMst3GHSWe1YqlE=
+		65fENFjQ8kxuK/3JR5h4o0KvDWA=
+		</data>
+		<key>Frameworks/DEToolkit.framework/DEToolkit</key>
+		<data>
+		hUhBc6dtaFYWiYOjDiSeS5BPwxk=
+		</data>
+		<key>Frameworks/DEToolkit.framework/Info.plist</key>
+		<data>
+		iJ31vyyqpt+YZtg4sbzj+J6yCTA=
+		</data>
+		<key>Frameworks/DEToolkit.framework/_CodeSignature/CodeResources</key>
+		<data>
+		ddQvvrlRMqAVYuO3GRXyxSde148=
 		</data>
 		<key>Frameworks/KinisAIKit.framework/Info.plist</key>
 		<data>
@@ -14,7 +26,7 @@
 		</data>
 		<key>Frameworks/KinisAIKit.framework/KinisAIKit</key>
 		<data>
-		KgM/hZec0TjyEpoGxKUUWTJODa4=
+		umIBrIp7qXp/F+j8hLchWNEClr8=
 		</data>
 		<key>Frameworks/KinisAIKit.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -34,11 +46,11 @@
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		692UI0UiQwDuWmTT9NIp8xBTHJc=
+		9XhiqCjCUyRKmGznHlNqnkrUTB4=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		6ij5tIGu86hM2xQngLubMvHZzN0=
+		kDughZTmvMtJgztO0SKRklJQbV4=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -46,11 +58,11 @@
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		6ij5tIGu86hM2xQngLubMvHZzN0=
+		kDughZTmvMtJgztO0SKRklJQbV4=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		TvPvGRGMBu6Atbo1BIizXWy7XLk=
+		C+4KKnwL0s7WhtFVjwlSM9H+kFc=
 		</data>
 		<key>Phudu-VariableFont_wght.ttf</key>
 		<data>
@@ -60,7 +72,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LwFGNo1GhQ+X6GY6G+pFSkHYFwQ=
+			oHw6/VaNHEN1WkIiREw0YoLQogs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -78,7 +90,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VA9i9OqpQxYStQj23VizQDwqSSA=
+			QZTxPJazFmhE9KkIKfSNoB2gjBA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -99,7 +111,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h/PFuKuMI6Ti98CLqBh95Z8q8j5eHH8aaNXvSco3nG8=
+			EXNnKOLSU0CawcciVbbJlfvNDf6XoecO5KD4QqmTxDA=
+			</data>
+		</dict>
+		<key>Frameworks/DEToolkit.framework/DEToolkit</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tjPo3rWiVL8FG6ZGr04oEmJzajbBW+IqnB4/2+tO5/I=
+			</data>
+		</dict>
+		<key>Frameworks/DEToolkit.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0GUjsJlFMaNK26uqU95ZDJjOhHyBkKaP/oATswMmSOg=
+			</data>
+		</dict>
+		<key>Frameworks/DEToolkit.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			z0STx2D3nYdbQ0U+YyNmoNHdq3vlnNg3ZB5ijONf8ss=
 			</data>
 		</dict>
 		<key>Frameworks/KinisAIKit.framework/Info.plist</key>
@@ -113,7 +146,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pFhbrsTIprxZ69rPjL7tiE/vDkBDsoddHCwBkQIbdMU=
+			k3qE5AuOI3RCLwMASYp25BYWDNt1IFZBeHT5E0ueo/E=
 			</data>
 		</dict>
 		<key>Frameworks/KinisAIKit.framework/_CodeSignature/CodeResources</key>
@@ -141,14 +174,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fa4oC94QOLLEuDLsjrXHEqG3KnalTg82ZEeqsLg5XQ0=
+			l2ZCyntScSDsQMnG8AOrh0s6vVdqPBBGXYCVt3xTWj0=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			afuFc2r3gl/YzJtLbJfvyjF3eI87bOEYGdXk06VTFNo=
+			jeexBhlEMykE+nLGEWlf5ueBHxmLaqC2D/6KIEX1Zd4=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -162,14 +195,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			afuFc2r3gl/YzJtLbJfvyjF3eI87bOEYGdXk06VTFNo=
+			jeexBhlEMykE+nLGEWlf5ueBHxmLaqC2D/6KIEX1Zd4=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YikCrrxGuFmHuwnWQ6ikKiieMA9K1txnBHcnG8/5GM0=
+			PLIfrtNMPegihc17gBQK1CbAbGU0YrcLy0CxS36LkNY=
 			</data>
 		</dict>
 		<key>Phudu-VariableFont_wght.ttf</key>
@@ -183,7 +216,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			leqB/+zdNQRWGYRXnKpLumqMoxo/lHDtJEQcwJHHxs4=
+			35iSpnHqKMUfQNSN2xb52/1AZ6V8Lf6t8Kol+e6Ibhs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -201,7 +234,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OaR/EkF8LMNUGeeeYV+LAJOTopJON6slE5MEC3KKpLA=
+			JzgXPtZNwfFzLEG3OULgDfnL5zIQU1V/uMreljEnKDE=
 			</data>
 			<key>optional</key>
 			<true/>

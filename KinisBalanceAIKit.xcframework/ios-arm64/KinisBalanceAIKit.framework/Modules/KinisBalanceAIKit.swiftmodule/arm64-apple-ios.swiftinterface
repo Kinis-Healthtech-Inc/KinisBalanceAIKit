@@ -3,12 +3,14 @@
 // swift-module-flags: -target arm64-apple-ios16.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature InferSendableFromCaptures -enable-upcoming-feature GlobalActorIsolatedTypesUsability -enable-upcoming-feature MemberImportVisibility -enable-upcoming-feature InferIsolatedConformances -enable-upcoming-feature NonisolatedNonsendingByDefault -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name KinisBalanceAIKit
 // swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AVFoundation
+import AVKit
 import Combine
 import DeveloperToolsSupport
 import Foundation
 import Swift
 import SwiftUI
 import UIKit
+import _AVKit_SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -16,24 +18,26 @@ public func LogD(_ message: @autoclosure () -> Swift.String)
 public func LogI(_ message: @autoclosure () -> Swift.String)
 public func LogW(_ message: @autoclosure () -> Swift.String)
 public func LogE(_ message: @autoclosure () -> Swift.String)
+
+extension SwiftUICore.Color {
+  public init(hex: Swift.String)
+}
 #if compiler(>=5.3) && $NonescapableTypes
 extension Swift.Optional {
   public func unwrap(file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line) throws -> Wrapped
 }
 #endif
-@_Concurrency.MainActor @preconcurrency public struct KinisBalanceApp : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(_ config: KinisBalanceAIKit.KinisBalanceConfig)
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s17KinisBalanceAIKit0aB3AppV4bodyQrvp", 0) __
+public enum DefaultColors {
+  public static let bgprimary: SwiftUICore.Color
+  public static let maintext: SwiftUICore.Color
+  public static let textsecondary: SwiftUICore.Color
+  public static let bgsecondary: SwiftUICore.Color
+  public static let bghighlight: SwiftUICore.Color
+  public static let brand: SwiftUICore.Color
 }
-public struct KinisBalanceConfig {
-  public init(apiKey: Swift.String, userInfo: KinisBalanceAIKit.KinisUserInfo)
-}
-public enum AppLanguage : Swift.String, Swift.Equatable {
-  case english
-  case vietnamese
+public enum AppLanguage : Swift.String, Swift.Equatable, Swift.Encodable {
+  case en
+  case vi
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
   #endif
@@ -42,10 +46,51 @@ public enum AppLanguage : Swift.String, Swift.Equatable {
     get
   }
 }
+public enum Gender : Swift.String, Swift.CaseIterable, Swift.Encodable {
+  case male
+  case female
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias AllCases = [KinisBalanceAIKit.Gender]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [KinisBalanceAIKit.Gender] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct KinisBalanceConfig {
+  public init(apiKey: Swift.String, style: KinisBalanceAIKit.StyleConfig, userInfo: KinisBalanceAIKit.KinisUserInfo)
+}
+public struct StyleConfig {
+  public init(color: KinisBalanceAIKit.ColorConfig, cardStyle: SwiftUICore.AnyShapeStyle)
+}
+public struct ColorConfig {
+  public init(bgScreenHighlight: SwiftUICore.Color = DefaultColors.bghighlight, bgHeader: SwiftUICore.Color = DefaultColors.bgprimary, textPrimary: SwiftUICore.Color = DefaultColors.maintext, textSecondary: SwiftUICore.Color = DefaultColors.textsecondary, accentWhite: SwiftUICore.Color = .white, iconPrimary: SwiftUICore.Color = DefaultColors.maintext, bgScreen: SwiftUICore.Color = DefaultColors.bgprimary, bgScreenGradient: SwiftUICore.Color = DefaultColors.bgsecondary, iconOnScreen: SwiftUICore.Color = DefaultColors.maintext, branding: SwiftUICore.Color = DefaultColors.brand)
+}
+@_Concurrency.MainActor @preconcurrency public struct KinisBalanceView : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(_ config: KinisBalanceAIKit.KinisBalanceConfig)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s17KinisBalanceAIKit0aB4ViewV4bodyQrvp", 0) __
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class KinisBalanceViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public init(config: KinisBalanceAIKit.KinisBalanceConfig)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc deinit
+}
 public struct KinisUserInfo : Swift.Equatable {
-  public init(id: Swift.String, age: Swift.Int, lastName: Swift.String, firstName: Swift.String, language: KinisBalanceAIKit.AppLanguage)
+  public init(id: Swift.String, yob: Swift.Int, name: Swift.String, gender: KinisBalanceAIKit.Gender, language: KinisBalanceAIKit.AppLanguage)
   public static func == (a: KinisBalanceAIKit.KinisUserInfo, b: KinisBalanceAIKit.KinisUserInfo) -> Swift.Bool
 }
-extension KinisBalanceAIKit.KinisBalanceApp : Swift.Sendable {}
 extension KinisBalanceAIKit.AppLanguage : Swift.Hashable {}
 extension KinisBalanceAIKit.AppLanguage : Swift.RawRepresentable {}
+extension KinisBalanceAIKit.Gender : Swift.Equatable {}
+extension KinisBalanceAIKit.Gender : Swift.Hashable {}
+extension KinisBalanceAIKit.Gender : Swift.RawRepresentable {}
+extension KinisBalanceAIKit.KinisBalanceView : Swift.Sendable {}
