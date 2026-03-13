@@ -33,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Kinis-Healthtech-Inc/KinisBalanceAIKit.git",
       "state" : {
-        "revision" : "347a8a384c0aa7c5747c46c7d7c1959c40e60c74",
-        "version" : "1.0.8"
+        "revision" : "3803a0c79de2ad5395b76b9d716a5e067bf23893",
+        "version" : "1.0.9"
       }
     },
     {
