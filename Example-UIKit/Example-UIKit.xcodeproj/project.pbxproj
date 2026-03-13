@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FAF0CD802F640D2E008A04B7 /* KinisAIKitt in Frameworks */ = {isa = PBXBuildFile; productRef = FAF0CD7F2F640D2E008A04B7 /* KinisAIKitt */; settings = {ATTRIBUTES = (Required, ); }; };
+		FAF0CDBE2F6412FD008A04B7 /* KinisAIKitt in Frameworks */ = {isa = PBXBuildFile; productRef = FAF0CDBD2F6412FD008A04B7 /* KinisAIKitt */; };
+		FAF0CEA02F641FD1008A04B7 /* KinisAIKitt in Frameworks */ = {isa = PBXBuildFile; productRef = FAF0CE9F2F641FD1008A04B7 /* KinisAIKitt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAF0CD802F640D2E008A04B7 /* KinisAIKitt in Frameworks */,
+				FAF0CDBE2F6412FD008A04B7 /* KinisAIKitt in Frameworks */,
+				FAF0CEA02F641FD1008A04B7 /* KinisAIKitt in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +93,8 @@
 			);
 			name = "Example-UIKit";
 			packageProductDependencies = (
-				FAF0CD7F2F640D2E008A04B7 /* KinisAIKitt */,
+				FAF0CDBD2F6412FD008A04B7 /* KinisAIKitt */,
+				FAF0CE9F2F641FD1008A04B7 /* KinisAIKitt */,
 			);
 			productName = "Example-UIKit";
 			productReference = FA0CCFBC2F5FE8640084E7AF /* Example-UIKit.app */;
@@ -122,7 +125,7 @@
 			mainGroup = FA0CCFB32F5FE8640084E7AF;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				FAF0CD7D2F640CA8008A04B7 /* XCRemoteSwiftPackageReference "KinisBalanceAIKit" */,
+				FAF0CE9E2F641FD1008A04B7 /* XCRemoteSwiftPackageReference "KinisBalanceAIKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FA0CCFBD2F5FE8640084E7AF /* Products */;
@@ -366,20 +369,24 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		FAF0CD7D2F640CA8008A04B7 /* XCRemoteSwiftPackageReference "KinisBalanceAIKit" */ = {
+		FAF0CE9E2F641FD1008A04B7 /* XCRemoteSwiftPackageReference "KinisBalanceAIKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Kinis-Healthtech-Inc/KinisBalanceAIKit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.11;
+				minimumVersion = 1.0.14;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FAF0CD7F2F640D2E008A04B7 /* KinisAIKitt */ = {
+		FAF0CDBD2F6412FD008A04B7 /* KinisAIKitt */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FAF0CD7D2F640CA8008A04B7 /* XCRemoteSwiftPackageReference "KinisBalanceAIKit" */;
+			productName = KinisAIKitt;
+		};
+		FAF0CE9F2F641FD1008A04B7 /* KinisAIKitt */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAF0CE9E2F641FD1008A04B7 /* XCRemoteSwiftPackageReference "KinisBalanceAIKit" */;
 			productName = KinisAIKitt;
 		};
 /* End XCSwiftPackageProductDependency section */

@@ -20,21 +20,12 @@
       }
     },
     {
-      "identity" : "detoolkit",
-      "kind" : "remoteSourceControl",
-      "location" : "git@github.com:HoangCuong9331/DEToolkit.git",
-      "state" : {
-        "revision" : "cda0bf439b1a497e20ac2acc422a424ffde1e656",
-        "version" : "2.0.5"
-      }
-    },
-    {
       "identity" : "kinisbalanceaikit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Kinis-Healthtech-Inc/KinisBalanceAIKit.git",
       "state" : {
-        "revision" : "3d8f024b93549bb83259737c182ce74df5ee25b2",
-        "version" : "1.0.13"
+        "revision" : "96df0651c24bcd9e9fe988473ffc01b44c79a8d9",
+        "version" : "1.0.14"
       }
     },
     {
