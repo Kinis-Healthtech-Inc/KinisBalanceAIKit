@@ -13,7 +13,6 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "git@github.com:HoangCuong9331/DEToolkit.git", exact: "2.0.5"),
         .package(url: "https://github.com/CocoaLumberjack/CocoaLumberjack", exact: "3.9.0"),
         .package(url: "https://github.com/Alamofire/Alamofire.git", exact: "5.11.1")
     ],
@@ -27,7 +26,6 @@ let package = Package(
             dependencies: [
                 "KinisBalanceAIKit",
                 .product(name: "Alamofire", package: "Alamofire"),
-                .product(name: "DEToolkit", package: "DEToolkit"),
                 .product(name: "CocoaLumberjack", package: "CocoaLumberjack")
             ]
         )

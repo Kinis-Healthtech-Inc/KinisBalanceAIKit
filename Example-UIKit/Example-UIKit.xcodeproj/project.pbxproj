@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FAF0CD802F640D2E008A04B7 /* KinisAIKitt in Frameworks */ = {isa = PBXBuildFile; productRef = FAF0CD7F2F640D2E008A04B7 /* KinisAIKitt */; };
+		FAF0CD802F640D2E008A04B7 /* KinisAIKitt in Frameworks */ = {isa = PBXBuildFile; productRef = FAF0CD7F2F640D2E008A04B7 /* KinisAIKitt */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */

@@ -7,6 +7,7 @@ import AVKit
 import Combine
 import DeveloperToolsSupport
 import Foundation
+import Security
 import Swift
 import SwiftUI
 import UIKit
@@ -18,6 +19,78 @@ public func LogD(_ message: @autoclosure () -> Swift.String)
 public func LogI(_ message: @autoclosure () -> Swift.String)
 public func LogW(_ message: @autoclosure () -> Swift.String)
 public func LogE(_ message: @autoclosure () -> Swift.String)
+public protocol StorageManager {
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  @discardableResult
+  nonisolated(nonsending) func saveObject<T>(_ object: T, forKey key: Swift.String) async throws -> Swift.Bool where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Sendable
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func retrieveObject<T>(forKey key: Swift.String) async throws -> T? where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Sendable
+  #endif
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  @discardableResult
+  nonisolated(nonsending) func deleteObject(forKey key: Swift.String) async throws -> Swift.Bool
+  #endif
+}
+public protocol CollectiveStorageManager : KinisBalanceAIKit.StorageManager {
+  #if compiler(>=5.3) && $AsyncExecutionBehaviorAttributes
+  nonisolated(nonsending) func retrieveObjects<T>(withKeyPrefix prefix: Swift.String) async -> [T] where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Sendable
+  #endif
+}
+public actor FileStorageManager : KinisBalanceAIKit.StorageManager {
+  public init(suite: Swift.String, cacheDirectoryURL: Foundation.URL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0])
+  @discardableResult
+  public func saveObject<T>(_ object: T, forKey key: Swift.String) async throws -> Swift.Bool where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Sendable
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func retrieveObject<T>(forKey key: Swift.String) async throws -> T? where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Sendable
+  #endif
+  @discardableResult
+  public func deleteObject(forKey key: Swift.String) async throws -> Swift.Bool
+  @objc deinit
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  @_semantics("defaultActor") nonisolated final public var unownedExecutor: _Concurrency.UnownedSerialExecutor {
+    get
+  }
+}
+public actor KeychainManager : KinisBalanceAIKit.StorageManager {
+  public init()
+  @discardableResult
+  public func saveObject<T>(_ object: T, forKey key: Swift.String) -> Swift.Bool where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Sendable
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func retrieveObject<T>(forKey key: Swift.String) -> T? where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Sendable
+  #endif
+  @discardableResult
+  public func deleteObject(forKey key: Swift.String) -> Swift.Bool
+  @objc deinit
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  @_semantics("defaultActor") nonisolated final public var unownedExecutor: _Concurrency.UnownedSerialExecutor {
+    get
+  }
+}
+public actor UserDefaultManager : KinisBalanceAIKit.CollectiveStorageManager {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(suiteName: Swift.String? = nil)
+  #endif
+  @discardableResult
+  public func saveObject<T>(_ object: T, forKey key: Swift.String) -> Swift.Bool where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Sendable
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func retrieveObject<T>(forKey key: Swift.String) -> T? where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Sendable
+  #endif
+  public func retrieveObjects<T>(withKeyPrefix prefix: Swift.String) -> [T] where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Sendable
+  @discardableResult
+  public func deleteObject(forKey key: Swift.String) -> Swift.Bool
+  @objc deinit
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  @_semantics("defaultActor") nonisolated final public var unownedExecutor: _Concurrency.UnownedSerialExecutor {
+    get
+  }
+}
+extension KinisBalanceAIKit.UserDefaultManager : @retroactive Combine.ObservableObject {
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+}
+extension KinisBalanceAIKit.KeychainManager : @retroactive Combine.ObservableObject {
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+}
 
 extension SwiftUICore.Color {
   public init(hex: Swift.String)

@@ -6,19 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		hXS/DD468bNQ/fg+BsLtJkGGVE8=
-		</data>
-		<key>Frameworks/DEToolkit.framework/DEToolkit</key>
-		<data>
-		k6YZ/vdv0mObdBAnl5L5Or774Wo=
-		</data>
-		<key>Frameworks/DEToolkit.framework/Info.plist</key>
-		<data>
-		iJ31vyyqpt+YZtg4sbzj+J6yCTA=
-		</data>
-		<key>Frameworks/DEToolkit.framework/_CodeSignature/CodeResources</key>
-		<data>
-		ddQvvrlRMqAVYuO3GRXyxSde148=
+		65fENFjQ8kxuK/3JR5h4o0KvDWA=
 		</data>
 		<key>Frameworks/KinisAIKit.framework/Info.plist</key>
 		<data>
@@ -26,7 +14,7 @@
 		</data>
 		<key>Frameworks/KinisAIKit.framework/KinisAIKit</key>
 		<data>
-		PlrycT6YFQIVh1bvSXPaWmoSSjI=
+		auee1lbCalnLhgDs36Ajna/xeR4=
 		</data>
 		<key>Frameworks/KinisAIKit.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -46,23 +34,23 @@
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		yoJqAscWt5JDyrt4f5gFeSpnKc4=
+		zCGzzIzO1z36NLJHc1nVhgFo9M8=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		uXlr2wviE2mZKhNwuwhbLgMxKQk=
+		rsoIQoXwu6HuflEQW6rAjBB5PKc=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		/DfKcBWUsj4fY08JxrcB6Zxtdms=
+		rnW5NBsETduiU9kwNojCIqKu7H4=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		uXlr2wviE2mZKhNwuwhbLgMxKQk=
+		rsoIQoXwu6HuflEQW6rAjBB5PKc=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		uf4fxPyrxo2aWevxHWXjh1l6MWY=
+		5iRPHY+NaqT57n1KOvF3456DOZY=
 		</data>
 		<key>Phudu-VariableFont_wght.ttf</key>
 		<data>
@@ -111,28 +99,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SxhgC3xsVeE0XV3/aTY2PbDozgZYzVcD33yDoYVw83Q=
-			</data>
-		</dict>
-		<key>Frameworks/DEToolkit.framework/DEToolkit</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tvNFPtcMPZ/XdtRB0FEHY+m3MeX0Y1K2IWqfkjc3Gqg=
-			</data>
-		</dict>
-		<key>Frameworks/DEToolkit.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0GUjsJlFMaNK26uqU95ZDJjOhHyBkKaP/oATswMmSOg=
-			</data>
-		</dict>
-		<key>Frameworks/DEToolkit.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			z0STx2D3nYdbQ0U+YyNmoNHdq3vlnNg3ZB5ijONf8ss=
+			EXNnKOLSU0CawcciVbbJlfvNDf6XoecO5KD4QqmTxDA=
 			</data>
 		</dict>
 		<key>Frameworks/KinisAIKit.framework/Info.plist</key>
@@ -146,7 +113,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zIeJXSkXfcXBfPuaNLGYvuOcuyIHl9IwT8RyqUmIoxs=
+			r5T0i6n6dAE/cNiH5tChRQGGbvEVaUYVUa47ONMBdpA=
 			</data>
 		</dict>
 		<key>Frameworks/KinisAIKit.framework/_CodeSignature/CodeResources</key>
@@ -174,35 +141,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3fu/MB8uPyqKOZaIIIurDMhhmPljONZK9RqnZHE0SrE=
+			IjFqiVGLQWv9/HdqZJf8tPoLsOmL2hhdOQ8j4Iv7V6E=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+qtgmmyM6ZvqPu9EhQ67c+I+FJZSCTSgHwSEFMm816A=
+			SsLPIl8LV1kd6GlifFCLDIBI9K50Vg6+rfMJYmbvst8=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9bP3TvVg3RNzbtzYZWijiP2ZuDtykPkqjTrFDS4iu8w=
+			XLPZYNsHSnz6PPSOJDcQVKWLoDInSr7BoBjdN0x3oxQ=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+qtgmmyM6ZvqPu9EhQ67c+I+FJZSCTSgHwSEFMm816A=
+			SsLPIl8LV1kd6GlifFCLDIBI9K50Vg6+rfMJYmbvst8=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kgcFBG7Mb+uFY3RtcOJZseKKUZz35zCUw5b6js8v2Yc=
+			5vj4arLMSgen3aZZD1P4mqmsYjYr1szJ1oemSI9fNcM=
 			</data>
 		</dict>
 		<key>Phudu-VariableFont_wght.ttf</key>

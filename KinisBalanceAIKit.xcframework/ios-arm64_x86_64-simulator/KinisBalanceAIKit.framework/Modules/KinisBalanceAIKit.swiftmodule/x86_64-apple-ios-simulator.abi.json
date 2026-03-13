@@ -306,6 +306,1063 @@
       },
       {
         "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StorageManager",
+        "printedName": "StorageManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "saveObject",
+            "printedName": "saveObject(_:forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_1_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KinisBalanceAIKit14StorageManagerP10saveObject_6forKeySbqd___SStYaKSeRd__SERd__s8SendableRd__lF",
+            "mangledName": "$s17KinisBalanceAIKit14StorageManagerP10saveObject_6forKeySbqd___SStYaKSeRd__SERd__s8SendableRd__lF",
+            "moduleName": "KinisBalanceAIKit",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : KinisBalanceAIKit.StorageManager, τ_1_0 : Swift.Decodable, τ_1_0 : Swift.Encodable, τ_1_0 : Swift.Sendable>",
+            "sugared_genericSig": "<Self, T where Self : KinisBalanceAIKit.StorageManager, T : Swift.Decodable, T : Swift.Encodable, T : Swift.Sendable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retrieveObject",
+            "printedName": "retrieveObject(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_1_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KinisBalanceAIKit14StorageManagerP14retrieveObject6forKeyqd__SgSS_tYaKSeRd__SERd__s8SendableRd__lF",
+            "mangledName": "$s17KinisBalanceAIKit14StorageManagerP14retrieveObject6forKeyqd__SgSS_tYaKSeRd__SERd__s8SendableRd__lF",
+            "moduleName": "KinisBalanceAIKit",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : KinisBalanceAIKit.StorageManager, τ_1_0 : Swift.Decodable, τ_1_0 : Swift.Encodable, τ_1_0 : Swift.Sendable>",
+            "sugared_genericSig": "<Self, T where Self : KinisBalanceAIKit.StorageManager, T : Swift.Decodable, T : Swift.Encodable, T : Swift.Sendable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteObject",
+            "printedName": "deleteObject(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KinisBalanceAIKit14StorageManagerP12deleteObject6forKeySbSS_tYaKF",
+            "mangledName": "$s17KinisBalanceAIKit14StorageManagerP12deleteObject6forKeySbSS_tYaKF",
+            "moduleName": "KinisBalanceAIKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : KinisBalanceAIKit.StorageManager>",
+            "sugared_genericSig": "<Self where Self : KinisBalanceAIKit.StorageManager>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17KinisBalanceAIKit14StorageManagerP",
+        "mangledName": "$s17KinisBalanceAIKit14StorageManagerP",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CollectiveStorageManager",
+        "printedName": "CollectiveStorageManager",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "retrieveObjects",
+            "printedName": "retrieveObjects(withKeyPrefix:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_1_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KinisBalanceAIKit24CollectiveStorageManagerP15retrieveObjects13withKeyPrefixSayqd__GSS_tYaSeRd__SERd__s8SendableRd__lF",
+            "mangledName": "$s17KinisBalanceAIKit24CollectiveStorageManagerP15retrieveObjects13withKeyPrefixSayqd__GSS_tYaSeRd__SERd__s8SendableRd__lF",
+            "moduleName": "KinisBalanceAIKit",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : KinisBalanceAIKit.CollectiveStorageManager, τ_1_0 : Swift.Decodable, τ_1_0 : Swift.Encodable, τ_1_0 : Swift.Sendable>",
+            "sugared_genericSig": "<Self, T where Self : KinisBalanceAIKit.CollectiveStorageManager, T : Swift.Decodable, T : Swift.Encodable, T : Swift.Sendable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Nonisolated",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17KinisBalanceAIKit24CollectiveStorageManagerP",
+        "mangledName": "$s17KinisBalanceAIKit24CollectiveStorageManagerP",
+        "moduleName": "KinisBalanceAIKit",
+        "genericSig": "<τ_0_0 : KinisBalanceAIKit.StorageManager>",
+        "sugared_genericSig": "<Self : KinisBalanceAIKit.StorageManager>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StorageManager",
+            "printedName": "StorageManager",
+            "usr": "s:17KinisBalanceAIKit14StorageManagerP",
+            "mangledName": "$s17KinisBalanceAIKit14StorageManagerP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FileStorageManager",
+        "printedName": "FileStorageManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(suite:cacheDirectoryURL:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FileStorageManager",
+                "printedName": "KinisBalanceAIKit.FileStorageManager",
+                "usr": "s:17KinisBalanceAIKit18FileStorageManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "hasDefaultArg": true,
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17KinisBalanceAIKit18FileStorageManagerC5suite17cacheDirectoryURLACSS_10Foundation0J0Vtcfc",
+            "mangledName": "$s17KinisBalanceAIKit18FileStorageManagerC5suite17cacheDirectoryURLACSS_10Foundation0J0Vtcfc",
+            "moduleName": "KinisBalanceAIKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "saveObject",
+            "printedName": "saveObject(_:forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KinisBalanceAIKit18FileStorageManagerC10saveObject_6forKeySbx_SStYaKSeRzSERzs8SendableRzlF",
+            "mangledName": "$s17KinisBalanceAIKit18FileStorageManagerC10saveObject_6forKeySbx_SStYaKSeRzSERzs8SendableRzlF",
+            "moduleName": "KinisBalanceAIKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Sendable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Sendable>",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retrieveObject",
+            "printedName": "retrieveObject(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KinisBalanceAIKit18FileStorageManagerC14retrieveObject6forKeyxSgSS_tYaKSeRzSERzs8SendableRzlF",
+            "mangledName": "$s17KinisBalanceAIKit18FileStorageManagerC14retrieveObject6forKeyxSgSS_tYaKSeRzSERzs8SendableRzlF",
+            "moduleName": "KinisBalanceAIKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Sendable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Sendable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteObject",
+            "printedName": "deleteObject(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KinisBalanceAIKit18FileStorageManagerC12deleteObject6forKeySbSS_tYaKF",
+            "mangledName": "$s17KinisBalanceAIKit18FileStorageManagerC12deleteObject6forKeySbSS_tYaKF",
+            "moduleName": "KinisBalanceAIKit",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "unownedExecutor",
+            "printedName": "unownedExecutor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnownedSerialExecutor",
+                "printedName": "_Concurrency.UnownedSerialExecutor",
+                "usr": "s:Sce"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17KinisBalanceAIKit18FileStorageManagerC15unownedExecutorScevp",
+            "mangledName": "$s17KinisBalanceAIKit18FileStorageManagerC15unownedExecutorScevp",
+            "moduleName": "KinisBalanceAIKit",
+            "implicit": true,
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
+            "intro_watchOS": "6.0",
+            "declAttributes": [
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "Final",
+              "Nonisolated",
+              "Semantics"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnownedSerialExecutor",
+                    "printedName": "_Concurrency.UnownedSerialExecutor",
+                    "usr": "s:Sce"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17KinisBalanceAIKit18FileStorageManagerC15unownedExecutorScevg",
+                "mangledName": "$s17KinisBalanceAIKit18FileStorageManagerC15unownedExecutorScevg",
+                "moduleName": "KinisBalanceAIKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17KinisBalanceAIKit18FileStorageManagerC",
+        "mangledName": "$s17KinisBalanceAIKit18FileStorageManagerC",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Actor",
+            "printedName": "Actor",
+            "usr": "s:ScA",
+            "mangledName": "$sScA"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StorageManager",
+            "printedName": "StorageManager",
+            "usr": "s:17KinisBalanceAIKit14StorageManagerP",
+            "mangledName": "$s17KinisBalanceAIKit14StorageManagerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KeychainManager",
+        "printedName": "KeychainManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeychainManager",
+                "printedName": "KinisBalanceAIKit.KeychainManager",
+                "usr": "s:17KinisBalanceAIKit15KeychainManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17KinisBalanceAIKit15KeychainManagerCACycfc",
+            "mangledName": "$s17KinisBalanceAIKit15KeychainManagerCACycfc",
+            "moduleName": "KinisBalanceAIKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "saveObject",
+            "printedName": "saveObject(_:forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KinisBalanceAIKit15KeychainManagerC10saveObject_6forKeySbx_SStSeRzSERzs8SendableRzlF",
+            "mangledName": "$s17KinisBalanceAIKit15KeychainManagerC10saveObject_6forKeySbx_SStSeRzSERzs8SendableRzlF",
+            "moduleName": "KinisBalanceAIKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Sendable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Sendable>",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retrieveObject",
+            "printedName": "retrieveObject(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KinisBalanceAIKit15KeychainManagerC14retrieveObject6forKeyxSgSS_tSeRzSERzs8SendableRzlF",
+            "mangledName": "$s17KinisBalanceAIKit15KeychainManagerC14retrieveObject6forKeyxSgSS_tSeRzSERzs8SendableRzlF",
+            "moduleName": "KinisBalanceAIKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Sendable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Sendable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteObject",
+            "printedName": "deleteObject(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KinisBalanceAIKit15KeychainManagerC12deleteObject6forKeySbSS_tF",
+            "mangledName": "$s17KinisBalanceAIKit15KeychainManagerC12deleteObject6forKeySbSS_tF",
+            "moduleName": "KinisBalanceAIKit",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "unownedExecutor",
+            "printedName": "unownedExecutor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnownedSerialExecutor",
+                "printedName": "_Concurrency.UnownedSerialExecutor",
+                "usr": "s:Sce"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17KinisBalanceAIKit15KeychainManagerC15unownedExecutorScevp",
+            "mangledName": "$s17KinisBalanceAIKit15KeychainManagerC15unownedExecutorScevp",
+            "moduleName": "KinisBalanceAIKit",
+            "implicit": true,
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
+            "intro_watchOS": "6.0",
+            "declAttributes": [
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "Final",
+              "Nonisolated",
+              "Semantics"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnownedSerialExecutor",
+                    "printedName": "_Concurrency.UnownedSerialExecutor",
+                    "usr": "s:Sce"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17KinisBalanceAIKit15KeychainManagerC15unownedExecutorScevg",
+                "mangledName": "$s17KinisBalanceAIKit15KeychainManagerC15unownedExecutorScevg",
+                "moduleName": "KinisBalanceAIKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17KinisBalanceAIKit15KeychainManagerC",
+        "mangledName": "$s17KinisBalanceAIKit15KeychainManagerC",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Actor",
+            "printedName": "Actor",
+            "usr": "s:ScA",
+            "mangledName": "$sScA"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StorageManager",
+            "printedName": "StorageManager",
+            "usr": "s:17KinisBalanceAIKit14StorageManagerP",
+            "mangledName": "$s17KinisBalanceAIKit14StorageManagerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserDefaultManager",
+        "printedName": "UserDefaultManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(suiteName:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserDefaultManager",
+                "printedName": "KinisBalanceAIKit.UserDefaultManager",
+                "usr": "s:17KinisBalanceAIKit18UserDefaultManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17KinisBalanceAIKit18UserDefaultManagerC9suiteNameACSSSg_tcfc",
+            "mangledName": "$s17KinisBalanceAIKit18UserDefaultManagerC9suiteNameACSSSg_tcfc",
+            "moduleName": "KinisBalanceAIKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "saveObject",
+            "printedName": "saveObject(_:forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KinisBalanceAIKit18UserDefaultManagerC10saveObject_6forKeySbx_SStSeRzSERzs8SendableRzlF",
+            "mangledName": "$s17KinisBalanceAIKit18UserDefaultManagerC10saveObject_6forKeySbx_SStSeRzSERzs8SendableRzlF",
+            "moduleName": "KinisBalanceAIKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Sendable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Sendable>",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retrieveObject",
+            "printedName": "retrieveObject(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KinisBalanceAIKit18UserDefaultManagerC14retrieveObject6forKeyxSgSS_tSeRzSERzs8SendableRzlF",
+            "mangledName": "$s17KinisBalanceAIKit18UserDefaultManagerC14retrieveObject6forKeyxSgSS_tSeRzSERzs8SendableRzlF",
+            "moduleName": "KinisBalanceAIKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Sendable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Sendable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "retrieveObjects",
+            "printedName": "retrieveObjects(withKeyPrefix:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KinisBalanceAIKit18UserDefaultManagerC15retrieveObjects13withKeyPrefixSayxGSS_tSeRzSERzs8SendableRzlF",
+            "mangledName": "$s17KinisBalanceAIKit18UserDefaultManagerC15retrieveObjects13withKeyPrefixSayxGSS_tSeRzSERzs8SendableRzlF",
+            "moduleName": "KinisBalanceAIKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Sendable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Sendable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteObject",
+            "printedName": "deleteObject(forKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KinisBalanceAIKit18UserDefaultManagerC12deleteObject6forKeySbSS_tF",
+            "mangledName": "$s17KinisBalanceAIKit18UserDefaultManagerC12deleteObject6forKeySbSS_tF",
+            "moduleName": "KinisBalanceAIKit",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "unownedExecutor",
+            "printedName": "unownedExecutor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UnownedSerialExecutor",
+                "printedName": "_Concurrency.UnownedSerialExecutor",
+                "usr": "s:Sce"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17KinisBalanceAIKit18UserDefaultManagerC15unownedExecutorScevp",
+            "mangledName": "$s17KinisBalanceAIKit18UserDefaultManagerC15unownedExecutorScevp",
+            "moduleName": "KinisBalanceAIKit",
+            "implicit": true,
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
+            "intro_watchOS": "6.0",
+            "declAttributes": [
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "Final",
+              "Nonisolated",
+              "Semantics"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnownedSerialExecutor",
+                    "printedName": "_Concurrency.UnownedSerialExecutor",
+                    "usr": "s:Sce"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17KinisBalanceAIKit18UserDefaultManagerC15unownedExecutorScevg",
+                "mangledName": "$s17KinisBalanceAIKit18UserDefaultManagerC15unownedExecutorScevg",
+                "moduleName": "KinisBalanceAIKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17KinisBalanceAIKit18UserDefaultManagerC",
+        "mangledName": "$s17KinisBalanceAIKit18UserDefaultManagerC",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Actor",
+            "printedName": "Actor",
+            "usr": "s:ScA",
+            "mangledName": "$sScA"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CollectiveStorageManager",
+            "printedName": "CollectiveStorageManager",
+            "usr": "s:17KinisBalanceAIKit24CollectiveStorageManagerP",
+            "mangledName": "$s17KinisBalanceAIKit24CollectiveStorageManagerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "StorageManager",
+            "printedName": "StorageManager",
+            "usr": "s:17KinisBalanceAIKit14StorageManagerP",
+            "mangledName": "$s17KinisBalanceAIKit14StorageManagerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -523,12 +1580,22 @@
       },
       {
         "kind": "Import",
-        "name": "DEToolkit",
-        "printedName": "DEToolkit",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "KinisBalanceAIKit",
         "declAttributes": [
-          "AccessControl"
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -550,23 +1617,6 @@
       },
       {
         "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -668,16 +1718,6 @@
       },
       {
         "kind": "Import",
-        "name": "DEToolkit",
-        "printedName": "DEToolkit",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -764,16 +1804,6 @@
         "moduleName": "KinisBalanceAIKit",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "DEToolkit",
-        "printedName": "DEToolkit",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit",
-        "declAttributes": [
-          "AccessControl"
         ]
       },
       {
@@ -1091,20 +2121,13 @@
       },
       {
         "kind": "Import",
-        "name": "DEToolkit",
-        "printedName": "DEToolkit",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit"
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -1114,16 +2137,6 @@
         "moduleName": "KinisBalanceAIKit",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "DEToolkit",
-        "printedName": "DEToolkit",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit",
-        "declAttributes": [
-          "AccessControl"
         ]
       },
       {
@@ -3002,165 +4015,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "UserDefaultManager",
-        "printedName": "UserDefaultManager",
-        "declKind": "Class",
-        "usr": "s:9DEToolkit18UserDefaultManagerC",
-        "mangledName": "$s9DEToolkit18UserDefaultManagerC",
-        "moduleName": "DEToolkit",
-        "isExternal": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Actor",
-            "printedName": "Actor",
-            "usr": "s:ScA",
-            "mangledName": "$sScA"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CollectiveStorageManager",
-            "printedName": "CollectiveStorageManager",
-            "usr": "s:9DEToolkit24CollectiveStorageManagerP",
-            "mangledName": "$s9DEToolkit24CollectiveStorageManagerP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "StorageManager",
-            "printedName": "StorageManager",
-            "usr": "s:9DEToolkit14StorageManagerP",
-            "mangledName": "$s9DEToolkit14StorageManagerP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ObservableObject",
-            "printedName": "ObservableObject",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ObjectWillChangePublisher",
-                "printedName": "ObjectWillChangePublisher",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObservableObjectPublisher",
-                    "printedName": "Combine.ObservableObjectPublisher",
-                    "usr": "s:7Combine25ObservableObjectPublisherC"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7Combine16ObservableObjectP",
-            "mangledName": "$s7Combine16ObservableObjectP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "KeychainManager",
-        "printedName": "KeychainManager",
-        "declKind": "Class",
-        "usr": "s:9DEToolkit15KeychainManagerC",
-        "mangledName": "$s9DEToolkit15KeychainManagerC",
-        "moduleName": "DEToolkit",
-        "isExternal": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Actor",
-            "printedName": "Actor",
-            "usr": "s:ScA",
-            "mangledName": "$sScA"
-          },
-          {
-            "kind": "Conformance",
-            "name": "StorageManager",
-            "printedName": "StorageManager",
-            "usr": "s:9DEToolkit14StorageManagerP",
-            "mangledName": "$s9DEToolkit14StorageManagerP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ObservableObject",
-            "printedName": "ObservableObject",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ObjectWillChangePublisher",
-                "printedName": "ObjectWillChangePublisher",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ObservableObjectPublisher",
-                    "printedName": "Combine.ObservableObjectPublisher",
-                    "usr": "s:7Combine25ObservableObjectPublisherC"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:7Combine16ObservableObjectP",
-            "mangledName": "$s7Combine16ObservableObjectP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "Color",
         "printedName": "Color",
         "children": [
@@ -3937,6 +4791,20 @@
       "offset": 1363,
       "length": 23,
       "value": "\"com.app.networklogger\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Data\/StorageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1817,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Data\/StorageManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5335,
+      "length": 8,
+      "value": "\"group.\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/BackendConfig.swift",
@@ -4865,28 +5733,28 @@
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 421,
+      "offset": 423,
       "length": 5,
       "value": "\"yyy\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 797,
+      "offset": 799,
       "length": 5,
       "value": "\"123\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 829,
+      "offset": 831,
       "length": 4,
       "value": "1998"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 861,
+      "offset": 863,
       "length": 6,
       "value": "\"Marc\""
     },
@@ -5026,7 +5894,7 @@
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/Home\/RecommendExercise\/RecommendExerciseCompactView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5222,
+      "offset": 5224,
       "length": 4,
       "value": "true"
     },
@@ -5187,14 +6055,14 @@
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/SLSTestOnboardingPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 822,
+      "offset": 824,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/SLSTestResultPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 2821,
+      "offset": 2823,
       "length": 5,
       "value": "false"
     },
