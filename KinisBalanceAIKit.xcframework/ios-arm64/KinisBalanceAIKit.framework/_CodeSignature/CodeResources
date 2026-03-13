@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		65fENFjQ8kxuK/3JR5h4o0KvDWA=
+		hXS/DD468bNQ/fg+BsLtJkGGVE8=
 		</data>
 		<key>Frameworks/DEToolkit.framework/DEToolkit</key>
 		<data>
-		5JhPrHzT15aSjobfwoDc8hXIp14=
+		k6YZ/vdv0mObdBAnl5L5Or774Wo=
 		</data>
 		<key>Frameworks/DEToolkit.framework/Info.plist</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Frameworks/KinisAIKit.framework/KinisAIKit</key>
 		<data>
-		VsNPXsHrYbV1/r750UApprUP6I0=
+		PlrycT6YFQIVh1bvSXPaWmoSSjI=
 		</data>
 		<key>Frameworks/KinisAIKit.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -111,14 +111,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EXNnKOLSU0CawcciVbbJlfvNDf6XoecO5KD4QqmTxDA=
+			SxhgC3xsVeE0XV3/aTY2PbDozgZYzVcD33yDoYVw83Q=
 			</data>
 		</dict>
 		<key>Frameworks/DEToolkit.framework/DEToolkit</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1FFuZ2OQNNc9RpV+jHsepXeYoUsSyGZLhnJ9fMGq/9E=
+			tvNFPtcMPZ/XdtRB0FEHY+m3MeX0Y1K2IWqfkjc3Gqg=
 			</data>
 		</dict>
 		<key>Frameworks/DEToolkit.framework/Info.plist</key>
@@ -146,7 +146,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VUYLOXjlg8EA0oJEo56EiHjlPKWlD9HMFVBtTioGIAg=
+			zIeJXSkXfcXBfPuaNLGYvuOcuyIHl9IwT8RyqUmIoxs=
 			</data>
 		</dict>
 		<key>Frameworks/KinisAIKit.framework/_CodeSignature/CodeResources</key>

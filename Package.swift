@@ -13,9 +13,9 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "git@github.com:HoangCuong9331/DEToolkit.git", from: "2.0.5"),
-        .package(url: "https://github.com/CocoaLumberjack/CocoaLumberjack", from: "3.9.0"),
-        .package(url: "https://github.com/Alamofire/Alamofire.git", from: "5.11.1")
+        .package(url: "git@github.com:HoangCuong9331/DEToolkit.git", exact: "2.0.5"),
+        .package(url: "https://github.com/CocoaLumberjack/CocoaLumberjack", exact: "3.9.0"),
+        .package(url: "https://github.com/Alamofire/Alamofire.git", exact: "5.11.1")
     ],
     targets: [
         .binaryTarget(

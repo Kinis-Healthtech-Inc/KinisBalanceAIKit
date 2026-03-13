@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA0CCFD62F5FE8C10084E7AF /* KinisBalanceAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = FA0CCFD52F5FE8C10084E7AF /* KinisBalanceAIKit */; };
+		FAF0CD802F640D2E008A04B7 /* KinisAIKitt in Frameworks */ = {isa = PBXBuildFile; productRef = FAF0CD7F2F640D2E008A04B7 /* KinisAIKitt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA0CCFD62F5FE8C10084E7AF /* KinisBalanceAIKit in Frameworks */,
+				FAF0CD802F640D2E008A04B7 /* KinisAIKitt in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				FA0CCFBE2F5FE8640084E7AF /* Example-UIKit */,
+				FAF0CD7E2F640D2E008A04B7 /* Frameworks */,
 				FA0CCFBD2F5FE8640084E7AF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,6 +62,13 @@
 				FA0CCFBC2F5FE8640084E7AF /* Example-UIKit.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF0CD7E2F640D2E008A04B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,7 +91,7 @@
 			);
 			name = "Example-UIKit";
 			packageProductDependencies = (
-				FA0CCFD52F5FE8C10084E7AF /* KinisBalanceAIKit */,
+				FAF0CD7F2F640D2E008A04B7 /* KinisAIKitt */,
 			);
 			productName = "Example-UIKit";
 			productReference = FA0CCFBC2F5FE8640084E7AF /* Example-UIKit.app */;
@@ -369,9 +377,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FA0CCFD52F5FE8C10084E7AF /* KinisBalanceAIKit */ = {
+		FAF0CD7F2F640D2E008A04B7 /* KinisAIKitt */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = KinisBalanceAIKit;
+			package = FAF0CD7D2F640CA8008A04B7 /* XCRemoteSwiftPackageReference "KinisBalanceAIKit" */;
+			productName = KinisAIKitt;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
