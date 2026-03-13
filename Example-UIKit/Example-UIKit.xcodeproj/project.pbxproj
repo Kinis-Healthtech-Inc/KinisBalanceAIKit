@@ -114,7 +114,6 @@
 			mainGroup = FA0CCFB32F5FE8640084E7AF;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				FA0CCFD42F5FE8C10084E7AF /* XCLocalSwiftPackageReference "../../KinisBalanceAIKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FA0CCFBD2F5FE8640084E7AF /* Products */;
@@ -356,13 +355,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCLocalSwiftPackageReference section */
-		FA0CCFD42F5FE8C10084E7AF /* XCLocalSwiftPackageReference "../../KinisBalanceAIKit" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../KinisBalanceAIKit;
-		};
-/* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		FA0CCFD52F5FE8C10084E7AF /* KinisBalanceAIKit */ = {

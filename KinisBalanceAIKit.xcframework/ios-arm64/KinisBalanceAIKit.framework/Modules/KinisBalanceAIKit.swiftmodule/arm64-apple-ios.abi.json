@@ -47,6 +47,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -329,6 +339,26 @@
         "moduleName": "KinisBalanceAIKit",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -3897,7 +3927,7 @@
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Data\/EnvFile.swift",
       "kind": "StringLiteral",
-      "offset": 111,
+      "offset": 130,
       "length": 58,
       "value": "\"https:\/\/livwell.public-config.staging-vn.kinis.ai\/public\""
     },
@@ -4502,6 +4532,13 @@
       "offset": 1182,
       "length": 13,
       "value": "\"total_tests\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/SLSTest\/CreateSuggestProgram.swift",
+      "kind": "StringLiteral",
+      "offset": 1174,
+      "length": 23,
+      "value": "\"assessment_session_id\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/SLSTest\/EndSLSTestUseCase.swift",
