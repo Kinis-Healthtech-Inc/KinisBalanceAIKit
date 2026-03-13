@@ -85,7 +85,7 @@ struct ContentView: View {
             NavigationLink("Take Test") {
                 KinisBalanceView(
                     KinisBalanceConfig(
-                        apiKey: "yyy", style: StyleConfig(color: ColorConfig(), cardStyle: AnyShapeStyle(LinearGradient(colors: [.red, .blue], startPoint: .leading, endPoint: .trailing))),
+                        apiKey: "yyy", style: StyleConfig(color: ColorConfig(), cardStrokeStyle: AnyShapeStyle(LinearGradient(colors: [.red, .blue], startPoint: .leading, endPoint: .trailing))),
                         userInfo: KinisUserInfo(
                             id: "123",
                             yob: 1998,
