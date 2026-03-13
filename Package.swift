@@ -2,14 +2,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "KinisBalanceAIKit",
+    name: "KinisAIKitt",
     platforms: [
         .iOS(.v16)
     ],
     products: [
         .library(
-            name: "KinisBalanceAIKit",
-            targets: ["KinisBalanceAIKit"]
+            name: "KinisAIKitt",
+            targets: ["KinisAIKitt"]
         )
     ],
     dependencies: [
@@ -19,13 +19,13 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "KinisBalanceAIKitBinary",
+            name: "KinisBalanceAIKit",
             path: "KinisBalanceAIKit.xcframework",
         ),
         .target(
-            name: "KinisBalanceAIKit",
+            name: "KinisAIKitt",
             dependencies: [
-                "KinisBalanceAIKitBinary",
+                "KinisBalanceAIKit",
                 .product(name: "Alamofire", package: "Alamofire"),
                 .product(name: "DEToolkit", package: "DEToolkit"),
                 .product(name: "CocoaLumberjack", package: "CocoaLumberjack")
