@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FA0CCFD62F5FE8C10084E7AF /* KinisBalanceAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = FA0CCFD52F5FE8C10084E7AF /* KinisBalanceAIKit */; };
+		FAF0CD782F63FB1A008A04B7 /* KinisBalanceAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = FAF0CD772F63FB1A008A04B7 /* KinisBalanceAIKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0CCFD62F5FE8C10084E7AF /* KinisBalanceAIKit in Frameworks */,
+				FAF0CD782F63FB1A008A04B7 /* KinisBalanceAIKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +86,7 @@
 			name = "Example-UIKit";
 			packageProductDependencies = (
 				FA0CCFD52F5FE8C10084E7AF /* KinisBalanceAIKit */,
+				FAF0CD772F63FB1A008A04B7 /* KinisBalanceAIKit */,
 			);
 			productName = "Example-UIKit";
 			productReference = FA0CCFBC2F5FE8640084E7AF /* Example-UIKit.app */;
@@ -114,6 +117,7 @@
 			mainGroup = FA0CCFB32F5FE8640084E7AF;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
+				FAF0CD762F63FB1A008A04B7 /* XCRemoteSwiftPackageReference "KinisBalanceAIKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FA0CCFBD2F5FE8640084E7AF /* Products */;
@@ -356,9 +360,25 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		FAF0CD762F63FB1A008A04B7 /* XCRemoteSwiftPackageReference "KinisBalanceAIKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kinis-Healthtech-Inc/KinisBalanceAIKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		FA0CCFD52F5FE8C10084E7AF /* KinisBalanceAIKit */ = {
 			isa = XCSwiftPackageProductDependency;
+			productName = KinisBalanceAIKit;
+		};
+		FAF0CD772F63FB1A008A04B7 /* KinisBalanceAIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAF0CD762F63FB1A008A04B7 /* XCRemoteSwiftPackageReference "KinisBalanceAIKit" */;
 			productName = KinisBalanceAIKit;
 		};
 /* End XCSwiftPackageProductDependency section */

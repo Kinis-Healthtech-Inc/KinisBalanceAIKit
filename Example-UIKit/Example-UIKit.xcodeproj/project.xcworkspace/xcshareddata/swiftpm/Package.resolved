@@ -1,0 +1,15 @@
+{
+  "originHash" : "3d1693a5842502f0593091617a9487781c61c3a9f509cedbb3661234762353e3",
+  "pins" : [
+    {
+      "identity" : "kinisbalanceaikit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Kinis-Healthtech-Inc/KinisBalanceAIKit.git",
+      "state" : {
+        "revision" : "0c736ab421a31446d5cab86df92e71764377e40b",
+        "version" : "1.0.7"
+      }
+    }
+  ],
+  "version" : 3
+}
