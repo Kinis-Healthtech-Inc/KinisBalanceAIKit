@@ -23,7 +23,7 @@ class ViewController: UIViewController {
                     apiKey: "yyy",
                     style: StyleConfig(
                         color: ColorConfig(),
-                        cardStyle: AnyShapeStyle(.red)
+                        cardStrokeStyle: AnyShapeStyle(.red)
                     ),
                     userInfo: .init(
                         id: "123",
