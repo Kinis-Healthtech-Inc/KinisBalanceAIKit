@@ -19,13 +19,13 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "KinisBalanceAIKit-Binary",
+            name: "KinisBalanceAIKitBinary",
             path: "KinisBalanceAIKit.xcframework",
         ),
         .target(
             name: "KinisBalanceAIKit",
             dependencies: [
-                "KinisBalanceAIKit-Binary",
+                "KinisBalanceAIKitBinary",
                 .product(name: "Alamofire", package: "Alamofire"),
                 .product(name: "DEToolkit", package: "DEToolkit"),
                 .product(name: "CocoaLumberjack", package: "CocoaLumberjack")

@@ -11,17 +11,35 @@
 		FA09A6802F517FF600969148 /* KinisBalanceAIKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = KinisBalanceAIKit.xcframework; sourceTree = "<group>"; };
 		FA09A6812F517FF600969148 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		FA09A6822F517FF600969148 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		FAF0CD7B2F64030A008A04B7 /* KinisBalanceAIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinisBalanceAIKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		FA09A6782F517FCA00969148 = {
 			isa = PBXGroup;
 			children = (
+				FAF0CD7A2F640303008A04B7 /* Sources */,
 				FA09A67F2F517FF600969148 /* Documentation.docc */,
 				FA09A6802F517FF600969148 /* KinisBalanceAIKit.xcframework */,
 				FA09A6812F517FF600969148 /* Package.swift */,
 				FA09A6822F517FF600969148 /* Readme.md */,
 			);
+			sourceTree = "<group>";
+		};
+		FAF0CD7A2F640303008A04B7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FAF0CD7C2F640325008A04B7 /* KinisBalanceAIKit */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FAF0CD7C2F640325008A04B7 /* KinisBalanceAIKit */ = {
+			isa = PBXGroup;
+			children = (
+				FAF0CD7B2F64030A008A04B7 /* KinisBalanceAIKit.swift */,
+			);
+			path = KinisBalanceAIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
