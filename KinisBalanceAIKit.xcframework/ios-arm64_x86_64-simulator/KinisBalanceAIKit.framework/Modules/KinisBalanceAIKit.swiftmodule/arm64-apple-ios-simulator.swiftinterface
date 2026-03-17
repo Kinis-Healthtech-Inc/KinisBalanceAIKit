@@ -141,6 +141,7 @@ public struct StyleConfig {
   public init(color: KinisBalanceAIKit.ColorConfig, shapes: KinisBalanceAIKit.ShapeConfig)
 }
 public struct ShapeConfig {
+  public init(cardStroke: SwiftUICore.AnyShapeStyle)
 }
 public struct ColorConfig {
   public init(bgScreenHighlight: SwiftUICore.Color = DefaultColors.bghighlight, bgHeader: SwiftUICore.Color = DefaultColors.bgprimary, textPrimary: SwiftUICore.Color = DefaultColors.maintext, textSecondary: SwiftUICore.Color = DefaultColors.textsecondary, accentWhite: SwiftUICore.Color = .white, iconPrimary: SwiftUICore.Color = DefaultColors.maintext, bgScreen: SwiftUICore.Color = DefaultColors.bgprimary, bgScreenGradient: SwiftUICore.Color = DefaultColors.bgsecondary, iconOnScreen: SwiftUICore.Color = DefaultColors.maintext, branding: SwiftUICore.Color = DefaultColors.brand, brandingSecondary: SwiftUICore.Color = DefaultColors.bghighlight)

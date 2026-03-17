@@ -21,16 +21,32 @@ class ViewController: UIViewController {
             KinisBalanceViewController(
                 config: .init(
                     apiKey: "yyy",
-                    style: StyleConfig(
-                        color: ColorConfig(),
-                        cardStrokeStyle: AnyShapeStyle(.red)
+                    style: .init(
+                        color: .init(
+                            bgScreenHighlight: Color(hex: "511D27"), bgHeader: Color(hex: "141011"),
+                            textPrimary: .white,
+                            textSecondary: Color(hex: "909090"),
+                            bgScreen: Color(hex: "141011"),
+                            bgScreenGradient: Color(hex: "241C1E"),
+                            branding: Color(hex: "F03457"),
+                            brandingSecondary: Color(hex: "FF577B")
+                        ),
+                        shapes: ShapeConfig(
+                            cardStroke: AnyShapeStyle(
+                                LinearGradient(
+                                    colors: [Color(hex: "F03457"), .clear],
+                                    startPoint: .leading,
+                                    endPoint: .trailing
+                                )
+                            )
+                        )
                     ),
                     userInfo: .init(
                         id: "123",
                         yob: 1998,
                         name: "Marc",
                         gender: .male,
-                        language: .vi
+                        language: .en
                     )
                 )
             ), animated: true
