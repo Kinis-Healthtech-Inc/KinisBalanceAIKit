@@ -3212,7 +3212,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(color:cardStrokeStyle:)",
+            "printedName": "init(color:shapes:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3228,14 +3228,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "AnyShapeStyle",
-                "printedName": "SwiftUI.AnyShapeStyle",
-                "usr": "s:7SwiftUI13AnyShapeStyleV"
+                "name": "ShapeConfig",
+                "printedName": "KinisBalanceAIKit.ShapeConfig",
+                "usr": "s:17KinisBalanceAIKit11ShapeConfigV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:17KinisBalanceAIKit11StyleConfigV5color010cardStrokeD0AcA05ColorE0V_7SwiftUI08AnyShapeD0Vtcfc",
-            "mangledName": "$s17KinisBalanceAIKit11StyleConfigV5color010cardStrokeD0AcA05ColorE0V_7SwiftUI08AnyShapeD0Vtcfc",
+            "usr": "s:17KinisBalanceAIKit11StyleConfigV5color6shapesAcA05ColorE0V_AA05ShapeE0Vtcfc",
+            "mangledName": "$s17KinisBalanceAIKit11StyleConfigV5color6shapesAcA05ColorE0V_AA05ShapeE0Vtcfc",
             "moduleName": "KinisBalanceAIKit",
             "declAttributes": [
               "AccessControl"
@@ -3270,13 +3270,41 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "ShapeConfig",
+        "printedName": "ShapeConfig",
+        "declKind": "Struct",
+        "usr": "s:17KinisBalanceAIKit11ShapeConfigV",
+        "mangledName": "$s17KinisBalanceAIKit11ShapeConfigV",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "ColorConfig",
         "printedName": "ColorConfig",
         "children": [
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(bgScreenHighlight:bgHeader:textPrimary:textSecondary:accentWhite:iconPrimary:bgScreen:bgScreenGradient:iconOnScreen:branding:)",
+            "printedName": "init(bgScreenHighlight:bgHeader:textPrimary:textSecondary:accentWhite:iconPrimary:bgScreen:bgScreenGradient:iconOnScreen:branding:brandingSecondary:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3353,11 +3381,18 @@
                 "printedName": "SwiftUI.Color",
                 "hasDefaultArg": true,
                 "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI5ColorV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:17KinisBalanceAIKit11ColorConfigV17bgScreenHighlight0F6Header11textPrimary0J9Secondary11accentWhite04iconK00fG00fG8Gradient0o2OnG08brandingAC7SwiftUI0D0V_A9Ptcfc",
-            "mangledName": "$s17KinisBalanceAIKit11ColorConfigV17bgScreenHighlight0F6Header11textPrimary0J9Secondary11accentWhite04iconK00fG00fG8Gradient0o2OnG08brandingAC7SwiftUI0D0V_A9Ptcfc",
+            "usr": "s:17KinisBalanceAIKit11ColorConfigV17bgScreenHighlight0F6Header11textPrimary0J9Secondary11accentWhite04iconK00fG00fG8Gradient0o2OnG08branding0rL0AC7SwiftUI0D0V_A10Qtcfc",
+            "mangledName": "$s17KinisBalanceAIKit11ColorConfigV17bgScreenHighlight0F6Header11textPrimary0J9Secondary11accentWhite04iconK00fG00fG8Gradient0o2OnG08branding0rL0AC7SwiftUI0D0V_A10Qtcfc",
             "moduleName": "KinisBalanceAIKit",
             "declAttributes": [
               "AccessControl"
@@ -5675,93 +5710,226 @@
       "value": "1"
     },
     {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle\/CardView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1304,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle\/CardView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1338,
+      "length": 1,
+      "value": "1"
+    },
+    {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle\/KinisStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 2133,
+      "offset": 2112,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle\/KinisStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 2171,
+      "offset": 2150,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle\/KinisStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 2207,
+      "offset": 2186,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle\/KinisStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 2253,
+      "offset": 2232,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle\/KinisStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 2922,
+      "offset": 2959,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle\/KinisStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 3081,
+      "offset": 3118,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle\/KinisStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 3939,
+      "offset": 3965,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle\/KinisStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 5572,
+      "offset": 5598,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 423,
+      "offset": 334,
+      "length": 4,
+      "value": "\"v1\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
+      "kind": "StringLiteral",
+      "offset": 361,
+      "length": 20,
+      "value": "\"https:\/\/google.com\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
+      "kind": "StringLiteral",
+      "offset": 413,
+      "length": 18,
+      "value": "\"wss:\/\/google.com\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
+      "kind": "StringLiteral",
+      "offset": 492,
+      "length": 4,
+      "value": "\"\/a\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
+      "kind": "StringLiteral",
+      "offset": 530,
+      "length": 4,
+      "value": "\"\/b\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
+      "kind": "IntegerLiteral",
+      "offset": 573,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
+      "kind": "StringLiteral",
+      "offset": 616,
+      "length": 4,
+      "value": "\"\/d\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
+      "kind": "StringLiteral",
+      "offset": 659,
+      "length": 4,
+      "value": "\"\/e\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
+      "kind": "StringLiteral",
+      "offset": 691,
+      "length": 4,
+      "value": "\"\/f\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
+      "kind": "StringLiteral",
+      "offset": 725,
+      "length": 4,
+      "value": "\"\/g\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
+      "kind": "StringLiteral",
+      "offset": 759,
+      "length": 4,
+      "value": "\"\/h\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
+      "kind": "StringLiteral",
+      "offset": 805,
+      "length": 5,
+      "value": "\"aaa\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
+      "kind": "StringLiteral",
+      "offset": 984,
       "length": 5,
       "value": "\"yyy\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 799,
+      "offset": 1100,
+      "length": 8,
+      "value": "\"141011\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
+      "kind": "StringLiteral",
+      "offset": 1201,
+      "length": 8,
+      "value": "\"141011\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
+      "kind": "StringLiteral",
+      "offset": 1265,
+      "length": 8,
+      "value": "\"241C1E\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
+      "kind": "StringLiteral",
+      "offset": 1321,
+      "length": 8,
+      "value": "\"F03457\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
+      "kind": "StringLiteral",
+      "offset": 1386,
+      "length": 8,
+      "value": "\"FF577B\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
+      "kind": "StringLiteral",
+      "offset": 1870,
       "length": 5,
       "value": "\"123\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 831,
+      "offset": 1902,
       "length": 4,
       "value": "1998"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 863,
+      "offset": 1934,
       "length": 6,
       "value": "\"Marc\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/LoadingView.swift",
       "kind": "BooleanLiteral",
-      "offset": 167,
+      "offset": 217,
       "length": 5,
       "value": "false"
     },
@@ -6062,7 +6230,7 @@
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/SLSTestResultPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 2823,
+      "offset": 2926,
       "length": 5,
       "value": "false"
     },

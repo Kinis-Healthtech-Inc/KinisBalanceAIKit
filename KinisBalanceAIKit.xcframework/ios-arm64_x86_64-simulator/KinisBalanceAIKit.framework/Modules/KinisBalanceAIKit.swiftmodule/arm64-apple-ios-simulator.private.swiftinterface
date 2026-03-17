@@ -85,10 +85,10 @@ public actor UserDefaultManager : KinisBalanceAIKit.CollectiveStorageManager {
     get
   }
 }
-extension KinisBalanceAIKit.UserDefaultManager : @retroactive Combine.ObservableObject {
+extension KinisBalanceAIKit.UserDefaultManager : Combine.ObservableObject {
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
 }
-extension KinisBalanceAIKit.KeychainManager : @retroactive Combine.ObservableObject {
+extension KinisBalanceAIKit.KeychainManager : Combine.ObservableObject {
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
 }
 
@@ -138,10 +138,12 @@ public struct KinisBalanceConfig {
   public init(apiKey: Swift.String, style: KinisBalanceAIKit.StyleConfig, userInfo: KinisBalanceAIKit.KinisUserInfo)
 }
 public struct StyleConfig {
-  public init(color: KinisBalanceAIKit.ColorConfig, cardStrokeStyle: SwiftUICore.AnyShapeStyle)
+  public init(color: KinisBalanceAIKit.ColorConfig, shapes: KinisBalanceAIKit.ShapeConfig)
+}
+public struct ShapeConfig {
 }
 public struct ColorConfig {
-  public init(bgScreenHighlight: SwiftUICore.Color = DefaultColors.bghighlight, bgHeader: SwiftUICore.Color = DefaultColors.bgprimary, textPrimary: SwiftUICore.Color = DefaultColors.maintext, textSecondary: SwiftUICore.Color = DefaultColors.textsecondary, accentWhite: SwiftUICore.Color = .white, iconPrimary: SwiftUICore.Color = DefaultColors.maintext, bgScreen: SwiftUICore.Color = DefaultColors.bgprimary, bgScreenGradient: SwiftUICore.Color = DefaultColors.bgsecondary, iconOnScreen: SwiftUICore.Color = DefaultColors.maintext, branding: SwiftUICore.Color = DefaultColors.brand)
+  public init(bgScreenHighlight: SwiftUICore.Color = DefaultColors.bghighlight, bgHeader: SwiftUICore.Color = DefaultColors.bgprimary, textPrimary: SwiftUICore.Color = DefaultColors.maintext, textSecondary: SwiftUICore.Color = DefaultColors.textsecondary, accentWhite: SwiftUICore.Color = .white, iconPrimary: SwiftUICore.Color = DefaultColors.maintext, bgScreen: SwiftUICore.Color = DefaultColors.bgprimary, bgScreenGradient: SwiftUICore.Color = DefaultColors.bgsecondary, iconOnScreen: SwiftUICore.Color = DefaultColors.maintext, branding: SwiftUICore.Color = DefaultColors.brand, brandingSecondary: SwiftUICore.Color = DefaultColors.bghighlight)
 }
 @_Concurrency.MainActor @preconcurrency public struct KinisBalanceView : SwiftUICore.View {
   @_Concurrency.MainActor @preconcurrency public init(_ config: KinisBalanceAIKit.KinisBalanceConfig)
