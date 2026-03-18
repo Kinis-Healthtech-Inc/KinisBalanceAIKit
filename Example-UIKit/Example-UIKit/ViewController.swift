@@ -23,7 +23,8 @@ class ViewController: UIViewController {
                     apiKey: "yyy",
                     style: .init(
                         color: .init(
-                            bgScreenHighlight: Color(hex: "511D27"), bgHeader: Color(hex: "141011"),
+                            bgScreenHighlight: Color(hex: "511D27"),
+                            bgHeader: Color(hex: "141011"),
                             textPrimary: .white,
                             textSecondary: Color(hex: "909090"),
                             bgScreen: Color(hex: "141011"),
@@ -41,6 +42,7 @@ class ViewController: UIViewController {
                             )
                         )
                     ),
+                    logLevel: .debug,
                     userInfo: .init(
                         id: "123",
                         yob: 1998,
@@ -49,7 +51,8 @@ class ViewController: UIViewController {
                         language: .en
                     )
                 )
-            ), animated: true
+            ),
+            animated: true
         )
     }
 }

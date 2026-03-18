@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FAA74EB82F6A5E4B00B22534 /* KinisBalanceAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = FAA74EB72F6A5E4B00B22534 /* KinisBalanceAIKit */; };
 		FAF0D22F2F691FFA008A04B7 /* KinisBalanceAIKit in Frameworks */ = {isa = PBXBuildFile; productRef = FAF0D22E2F691FFA008A04B7 /* KinisBalanceAIKit */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF0D22F2F691FFA008A04B7 /* KinisBalanceAIKit in Frameworks */,
+				FAA74EB82F6A5E4B00B22534 /* KinisBalanceAIKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +94,7 @@
 			name = "Example-UIKit";
 			packageProductDependencies = (
 				FAF0D22E2F691FFA008A04B7 /* KinisBalanceAIKit */,
+				FAA74EB72F6A5E4B00B22534 /* KinisBalanceAIKit */,
 			);
 			productName = "Example-UIKit";
 			productReference = FA0CCFBC2F5FE8640084E7AF /* Example-UIKit.app */;
@@ -122,7 +125,7 @@
 			mainGroup = FA0CCFB32F5FE8640084E7AF;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				FAF0D22D2F691FFA008A04B7 /* XCLocalSwiftPackageReference "../../KinisBalanceAIKit" */,
+				FAA74EB62F6A5E4B00B22534 /* XCLocalSwiftPackageReference "../../KinisBalanceAIKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FA0CCFBD2F5FE8640084E7AF /* Products */;
@@ -366,13 +369,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		FAF0D22D2F691FFA008A04B7 /* XCLocalSwiftPackageReference "../../KinisBalanceAIKit" */ = {
+		FAA74EB62F6A5E4B00B22534 /* XCLocalSwiftPackageReference "../../KinisBalanceAIKit" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../../KinisBalanceAIKit;
 		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		FAA74EB72F6A5E4B00B22534 /* KinisBalanceAIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = KinisBalanceAIKit;
+		};
 		FAF0D22E2F691FFA008A04B7 /* KinisBalanceAIKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = KinisBalanceAIKit;

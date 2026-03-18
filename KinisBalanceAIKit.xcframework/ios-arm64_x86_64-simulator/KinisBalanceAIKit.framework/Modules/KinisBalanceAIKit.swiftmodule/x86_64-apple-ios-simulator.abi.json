@@ -1828,6 +1828,16 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -3142,7 +3152,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(apiKey:style:userInfo:)",
+            "printedName": "init(apiKey:style:logLevel:userInfo:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3164,14 +3174,20 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "KinisBalanceAIKit.LogLevel",
+                "usr": "s:17KinisBalanceAIKit8LogLevelO"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "KinisUserInfo",
                 "printedName": "KinisBalanceAIKit.KinisUserInfo",
                 "usr": "s:17KinisBalanceAIKit0A8UserInfoV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:17KinisBalanceAIKit0aB6ConfigV6apiKey5style8userInfoACSS_AA05StyleD0VAA0a4UserI0Vtcfc",
-            "mangledName": "$s17KinisBalanceAIKit0aB6ConfigV6apiKey5style8userInfoACSS_AA05StyleD0VAA0a4UserI0Vtcfc",
+            "usr": "s:17KinisBalanceAIKit0aB6ConfigV6apiKey5style8logLevel8userInfoACSS_AA05StyleD0VAA03LogI0OAA0a4UserK0Vtcfc",
+            "mangledName": "$s17KinisBalanceAIKit0aB6ConfigV6apiKey5style8logLevel8userInfoACSS_AA05StyleD0VAA03LogI0OAA0a4UserK0Vtcfc",
             "moduleName": "KinisBalanceAIKit",
             "declAttributes": [
               "AccessControl"
@@ -3201,6 +3217,220 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogLevel",
+        "printedName": "LogLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KinisBalanceAIKit.LogLevel.Type) -> KinisBalanceAIKit.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "KinisBalanceAIKit.LogLevel",
+                    "usr": "s:17KinisBalanceAIKit8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "KinisBalanceAIKit.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "KinisBalanceAIKit.LogLevel",
+                        "usr": "s:17KinisBalanceAIKit8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17KinisBalanceAIKit8LogLevelO4infoyA2CmF",
+            "mangledName": "$s17KinisBalanceAIKit8LogLevelO4infoyA2CmF",
+            "moduleName": "KinisBalanceAIKit"
+          },
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(KinisBalanceAIKit.LogLevel.Type) -> KinisBalanceAIKit.LogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LogLevel",
+                    "printedName": "KinisBalanceAIKit.LogLevel",
+                    "usr": "s:17KinisBalanceAIKit8LogLevelO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "KinisBalanceAIKit.LogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LogLevel",
+                        "printedName": "KinisBalanceAIKit.LogLevel",
+                        "usr": "s:17KinisBalanceAIKit8LogLevelO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17KinisBalanceAIKit8LogLevelO5debugyA2CmF",
+            "mangledName": "$s17KinisBalanceAIKit8LogLevelO5debugyA2CmF",
+            "moduleName": "KinisBalanceAIKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "KinisBalanceAIKit.LogLevel",
+                "usr": "s:17KinisBalanceAIKit8LogLevelO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogLevel",
+                "printedName": "KinisBalanceAIKit.LogLevel",
+                "usr": "s:17KinisBalanceAIKit8LogLevelO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KinisBalanceAIKit8LogLevelO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s17KinisBalanceAIKit8LogLevelO2eeoiySbAC_ACtFZ",
+            "moduleName": "KinisBalanceAIKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17KinisBalanceAIKit8LogLevelO9hashValueSivp",
+            "mangledName": "$s17KinisBalanceAIKit8LogLevelO9hashValueSivp",
+            "moduleName": "KinisBalanceAIKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17KinisBalanceAIKit8LogLevelO9hashValueSivg",
+                "mangledName": "$s17KinisBalanceAIKit8LogLevelO9hashValueSivg",
+                "moduleName": "KinisBalanceAIKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17KinisBalanceAIKit8LogLevelO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s17KinisBalanceAIKit8LogLevelO4hash4intoys6HasherVz_tF",
+            "moduleName": "KinisBalanceAIKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17KinisBalanceAIKit8LogLevelO",
+        "mangledName": "$s17KinisBalanceAIKit8LogLevelO",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           }
         ]
       },
@@ -3487,7 +3717,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(_:)",
+            "printedName": "init(config:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3503,8 +3733,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:17KinisBalanceAIKit0aB4ViewVyAcA0aB6ConfigVcfc",
-            "mangledName": "$s17KinisBalanceAIKit0aB4ViewVyAcA0aB6ConfigVcfc",
+            "usr": "s:17KinisBalanceAIKit0aB4ViewV6configAcA0aB6ConfigV_tcfc",
+            "mangledName": "$s17KinisBalanceAIKit0aB4ViewV6configAcA0aB6ConfigV_tcfc",
             "moduleName": "KinisBalanceAIKit",
             "declAttributes": [
               "Preconcurrency",
@@ -5826,77 +6056,84 @@
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 984,
+      "offset": 992,
       "length": 5,
       "value": "\"yyy\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 1109,
+      "offset": 1117,
       "length": 8,
       "value": "\"511D27\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 1141,
+      "offset": 1149,
       "length": 8,
       "value": "\"141011\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 1247,
+      "offset": 1255,
       "length": 8,
       "value": "\"909090\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 1303,
+      "offset": 1311,
       "length": 8,
       "value": "\"141011\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 1367,
+      "offset": 1375,
       "length": 8,
       "value": "\"241C1E\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 1423,
+      "offset": 1431,
       "length": 8,
       "value": "\"F03457\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 1488,
+      "offset": 1496,
       "length": 8,
       "value": "\"FF577B\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 1972,
+      "offset": 1717,
+      "length": 8,
+      "value": "\"F03457\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
+      "kind": "StringLiteral",
+      "offset": 2031,
       "length": 5,
       "value": "\"123\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "IntegerLiteral",
-      "offset": 2004,
+      "offset": 2063,
       "length": 4,
       "value": "1998"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 2036,
+      "offset": 2095,
       "length": 6,
       "value": "\"Marc\""
     },
@@ -6039,6 +6276,13 @@
       "offset": 5224,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/Home\/HomeHeader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1258,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/AnalyzeResultView\/AreaScoreChart.swift",
@@ -6358,7 +6602,7 @@
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Public\/KinisBalanceView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2287,
+      "offset": 2727,
       "length": 4,
       "value": "true"
     },
