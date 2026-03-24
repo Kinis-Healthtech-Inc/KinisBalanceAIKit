@@ -1363,6 +1363,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -1396,6 +1406,36 @@
         "moduleName": "KinisBalanceAIKit",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "AccessControl"
         ]
       },
       {
@@ -1955,73 +1995,6 @@
       },
       {
         "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "KinisAIKit",
-        "printedName": "KinisAIKit",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "KinisAIKit",
-        "printedName": "KinisAIKit",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -2035,82 +2008,7 @@
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
         "moduleName": "KinisBalanceAIKit"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit"
-      },
-      {
-        "kind": "Import",
-        "name": "Combine",
-        "printedName": "Combine",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AVFoundation",
-        "printedName": "AVFoundation",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "KinisBalanceAIKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -2127,12 +2025,208 @@
         "name": "AVKit",
         "printedName": "AVKit",
         "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Lottie",
+        "printedName": "Lottie",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "KinisAIKit",
+        "printedName": "KinisAIKit",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "KinisAIKit",
+        "printedName": "KinisAIKit",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Lottie",
+        "printedName": "Lottie",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
         "moduleName": "KinisBalanceAIKit"
       },
       {
         "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "KinisBalanceAIKit",
         "declAttributes": [
@@ -2558,6 +2652,130 @@
         "declKind": "Enum",
         "usr": "s:17KinisBalanceAIKit13DefaultColorsO",
         "mangledName": "$s17KinisBalanceAIKit13DefaultColorsO",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DefaultShapes",
+        "printedName": "DefaultShapes",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "separator",
+            "printedName": "separator",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyShapeStyle",
+                "printedName": "SwiftUI.AnyShapeStyle",
+                "usr": "s:7SwiftUI13AnyShapeStyleV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17KinisBalanceAIKit13DefaultShapesO9separator7SwiftUI13AnyShapeStyleVvpZ",
+            "mangledName": "$s17KinisBalanceAIKit13DefaultShapesO9separator7SwiftUI13AnyShapeStyleVvpZ",
+            "moduleName": "KinisBalanceAIKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyShapeStyle",
+                    "printedName": "SwiftUI.AnyShapeStyle",
+                    "usr": "s:7SwiftUI13AnyShapeStyleV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17KinisBalanceAIKit13DefaultShapesO9separator7SwiftUI13AnyShapeStyleVvgZ",
+                "mangledName": "$s17KinisBalanceAIKit13DefaultShapesO9separator7SwiftUI13AnyShapeStyleVvgZ",
+                "moduleName": "KinisBalanceAIKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cardStroke",
+            "printedName": "cardStroke",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyShapeStyle",
+                "printedName": "SwiftUI.AnyShapeStyle",
+                "usr": "s:7SwiftUI13AnyShapeStyleV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17KinisBalanceAIKit13DefaultShapesO10cardStroke7SwiftUI13AnyShapeStyleVvpZ",
+            "mangledName": "$s17KinisBalanceAIKit13DefaultShapesO10cardStroke7SwiftUI13AnyShapeStyleVvpZ",
+            "moduleName": "KinisBalanceAIKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyShapeStyle",
+                    "printedName": "SwiftUI.AnyShapeStyle",
+                    "usr": "s:7SwiftUI13AnyShapeStyleV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17KinisBalanceAIKit13DefaultShapesO10cardStroke7SwiftUI13AnyShapeStyleVvgZ",
+                "mangledName": "$s17KinisBalanceAIKit13DefaultShapesO10cardStroke7SwiftUI13AnyShapeStyleVvgZ",
+                "moduleName": "KinisBalanceAIKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17KinisBalanceAIKit13DefaultShapesO",
+        "mangledName": "$s17KinisBalanceAIKit13DefaultShapesO",
         "moduleName": "KinisBalanceAIKit",
         "declAttributes": [
           "AccessControl"
@@ -3506,7 +3724,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(cardStroke:)",
+            "printedName": "init(cardStroke:seperatorStroke:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3518,12 +3736,20 @@
                 "kind": "TypeNominal",
                 "name": "AnyShapeStyle",
                 "printedName": "SwiftUI.AnyShapeStyle",
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI13AnyShapeStyleV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnyShapeStyle",
+                "printedName": "SwiftUI.AnyShapeStyle",
+                "hasDefaultArg": true,
                 "usr": "s:7SwiftUI13AnyShapeStyleV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:17KinisBalanceAIKit11ShapeConfigV10cardStrokeAC7SwiftUI03AnyD5StyleV_tcfc",
-            "mangledName": "$s17KinisBalanceAIKit11ShapeConfigV10cardStrokeAC7SwiftUI03AnyD5StyleV_tcfc",
+            "usr": "s:17KinisBalanceAIKit11ShapeConfigV10cardStroke09seperatorG0AC7SwiftUI03AnyD5StyleV_AHtcfc",
+            "mangledName": "$s17KinisBalanceAIKit11ShapeConfigV10cardStroke09seperatorG0AC7SwiftUI03AnyD5StyleV_AHtcfc",
             "moduleName": "KinisBalanceAIKit",
             "declAttributes": [
               "AccessControl"
@@ -3564,7 +3790,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(bgScreenHighlight:bgHeader:textPrimary:textSecondary:accentWhite:iconPrimary:bgScreen:bgScreenGradient:iconOnScreen:branding:brandingSecondary:)",
+            "printedName": "init(bgScreenHighlight:bgHeader:textPrimary:textSecondary:accentWhite:bgScreen:bgScreenGradient:iconOnScreen:branding:brandingSecondary:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3641,18 +3867,11 @@
                 "printedName": "SwiftUI.Color",
                 "hasDefaultArg": true,
                 "usr": "s:7SwiftUI5ColorV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "hasDefaultArg": true,
-                "usr": "s:7SwiftUI5ColorV"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:17KinisBalanceAIKit11ColorConfigV17bgScreenHighlight0F6Header11textPrimary0J9Secondary11accentWhite04iconK00fG00fG8Gradient0o2OnG08branding0rL0AC7SwiftUI0D0V_A10Qtcfc",
-            "mangledName": "$s17KinisBalanceAIKit11ColorConfigV17bgScreenHighlight0F6Header11textPrimary0J9Secondary11accentWhite04iconK00fG00fG8Gradient0o2OnG08branding0rL0AC7SwiftUI0D0V_A10Qtcfc",
+            "usr": "s:17KinisBalanceAIKit11ColorConfigV17bgScreenHighlight0F6Header11textPrimary0J9Secondary11accentWhite0fG00fG8Gradient06iconOnG08branding0rL0AC7SwiftUI0D0V_A9Ptcfc",
+            "mangledName": "$s17KinisBalanceAIKit11ColorConfigV17bgScreenHighlight0F6Header11textPrimary0J9Secondary11accentWhite0fG00fG8Gradient06iconOnG08branding0rL0AC7SwiftUI0D0V_A9Ptcfc",
             "moduleName": "KinisBalanceAIKit",
             "declAttributes": [
               "AccessControl"
@@ -5052,6 +5271,131 @@
             "printedName": "CustomizableToolbarContent",
             "usr": "s:7SwiftUI26CustomizableToolbarContentP",
             "mangledName": "$s7SwiftUI26CustomizableToolbarContentP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Interpolatable",
+            "printedName": "Interpolatable",
+            "usr": "s:6Lottie14InterpolatableP",
+            "mangledName": "$s6Lottie14InterpolatableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AnyInterpolatable",
+            "printedName": "AnyInterpolatable",
+            "usr": "s:6Lottie17AnyInterpolatableP",
+            "mangledName": "$s6Lottie17AnyInterpolatableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnyShapeStyle",
+        "printedName": "AnyShapeStyle",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "linearGradient",
+            "printedName": "linearGradient(leading:trailing:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyShapeStyle",
+                "printedName": "SwiftUI.AnyShapeStyle",
+                "usr": "s:7SwiftUI13AnyShapeStyleV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI13AnyShapeStyleV17KinisBalanceAIKitE14linearGradient7leading8trailingAcA5ColorV_AItFZ",
+            "mangledName": "$s7SwiftUI13AnyShapeStyleV17KinisBalanceAIKitE14linearGradient7leading8trailingAcA5ColorV_AItFZ",
+            "moduleName": "KinisBalanceAIKit",
+            "static": true,
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7SwiftUI13AnyShapeStyleV",
+        "mangledName": "$s7SwiftUI13AnyShapeStyleV",
+        "moduleName": "SwiftUICore",
+        "intro_Macosx": "12.0",
+        "intro_iOS": "15.0",
+        "intro_tvOS": "15.0",
+        "intro_watchOS": "8.0",
+        "declAttributes": [
+          "Frozen",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ShapeStyle",
+            "printedName": "ShapeStyle",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Resolved",
+                "printedName": "Resolved",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI10ShapeStyleP",
+            "mangledName": "$s7SwiftUI10ShapeStyleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       }
@@ -5102,6 +5446,20 @@
       "value": "\"group.\""
     },
     {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/AssessmentSession.swift",
+      "kind": "StringLiteral",
+      "offset": 344,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/AssessmentSession.swift",
+      "kind": "StringLiteral",
+      "offset": 383,
+      "length": 21,
+      "value": "\"suggested_exercises\""
+    },
+    {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/BackendConfig.swift",
       "kind": "StringLiteral",
       "offset": 284,
@@ -5146,72 +5504,114 @@
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/BackendConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1349,
+      "offset": 1383,
       "length": 24,
       "value": "\"assessment_summary_api\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/BackendConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1404,
+      "offset": 1438,
       "length": 14,
       "value": "\"test_history\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/BackendConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1454,
+      "offset": 1488,
       "length": 24,
       "value": "\"test_history_page_size\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/BackendConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1517,
+      "offset": 1551,
       "length": 19,
       "value": "\"suggested_program\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/BackendConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1572,
+      "offset": 1606,
       "length": 30,
       "value": "\"get_active_suggested_program\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/BackendConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1627,
+      "offset": 1661,
       "length": 11,
       "value": "\"sync_user\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/BackendConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1665,
+      "offset": 1699,
       "length": 13,
       "value": "\"finish_test\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/BackendConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1705,
+      "offset": 1739,
       "length": 18,
       "value": "\"gen_test_session\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/BackendConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1897,
+      "offset": 1791,
+      "length": 22,
+      "value": "\"create_exercise_logs\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/BackendConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1987,
       "length": 17,
       "value": "\"disable_message\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/BackendConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1944,
+      "offset": 2034,
       "length": 16,
       "value": "\"should_disable\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/ExerciseLog.swift",
+      "kind": "StringLiteral",
+      "offset": 179,
+      "length": 9,
+      "value": "\"not_yet\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/ExerciseLog.swift",
+      "kind": "StringLiteral",
+      "offset": 219,
+      "length": 23,
+      "value": "\"less_than_three_times\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/ExerciseLog.swift",
+      "kind": "StringLiteral",
+      "offset": 273,
+      "length": 26,
+      "value": "\"greater_than_three_times\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/ExerciseLog.swift",
+      "kind": "StringLiteral",
+      "offset": 777,
+      "length": 17,
+      "value": "\"exercise_ref_id\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/ExerciseLog.swift",
+      "kind": "StringLiteral",
+      "offset": 816,
+      "length": 15,
+      "value": "\"exercise_time\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Entities\/ExerciseProgram.swift",
@@ -5641,6 +6041,13 @@
       "value": "\"2025-12-31T09:36:54.386Z\""
     },
     {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Home\/CreateExerciseLogUseCase.swift",
+      "kind": "StringLiteral",
+      "offset": 1339,
+      "length": 15,
+      "value": "\"exercise_logs\""
+    },
+    {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/Home\/GetAssessmentSessions.swift",
       "kind": "StringLiteral",
       "offset": 1380,
@@ -5781,13 +6188,6 @@
       "value": "\"assessment_type_key\""
     },
     {
-      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/SLSTest\/StartSLSTestUseCase.swift",
-      "kind": "StringLiteral",
-      "offset": 1358,
-      "length": 4,
-      "value": "\"id\""
-    },
-    {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Domain\/GetConfigUseCase.swift",
       "kind": "StringLiteral",
       "offset": 780,
@@ -5916,56 +6316,56 @@
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle\/KinisStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 2112,
+      "offset": 2097,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle\/KinisStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 2150,
+      "offset": 2135,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle\/KinisStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 2186,
+      "offset": 2171,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle\/KinisStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 2232,
+      "offset": 2217,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle\/KinisStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 2909,
+      "offset": 2886,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle\/KinisStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 3068,
+      "offset": 3045,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle\/KinisStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 3926,
+      "offset": 3903,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/KinisStyle\/KinisStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 5559,
+      "offset": 5536,
       "length": 1,
       "value": "3"
     },
@@ -6049,93 +6449,86 @@
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 805,
+      "offset": 800,
+      "length": 4,
+      "value": "\"\/j\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
+      "kind": "StringLiteral",
+      "offset": 846,
       "length": 5,
       "value": "\"aaa\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
-      "kind": "StringLiteral",
-      "offset": 992,
-      "length": 5,
-      "value": "\"yyy\""
+      "kind": "FloatLiteral",
+      "offset": 930,
+      "length": 3,
+      "value": "0.5"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 1117,
+      "offset": 1182,
       "length": 8,
       "value": "\"511D27\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 1149,
+      "offset": 1214,
       "length": 8,
       "value": "\"141011\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 1255,
+      "offset": 1312,
       "length": 8,
       "value": "\"909090\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 1311,
+      "offset": 1364,
       "length": 8,
       "value": "\"141011\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 1375,
+      "offset": 1424,
       "length": 8,
       "value": "\"241C1E\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 1431,
+      "offset": 1476,
       "length": 8,
       "value": "\"F03457\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 1496,
+      "offset": 1537,
       "length": 8,
       "value": "\"FF577B\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 1717,
+      "offset": 1725,
       "length": 8,
       "value": "\"F03457\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
       "kind": "StringLiteral",
-      "offset": 2031,
-      "length": 5,
-      "value": "\"123\""
-    },
-    {
-      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2063,
-      "length": 4,
-      "value": "1998"
-    },
-    {
-      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/DebugRulerOverlay.swift",
-      "kind": "StringLiteral",
-      "offset": 2095,
-      "length": 6,
-      "value": "\"Marc\""
+      "offset": 1898,
+      "length": 8,
+      "value": "\"C03457\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/CommonUI\/LoadingView.swift",
@@ -6294,70 +6687,105 @@
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/AnalyzeResultView\/SLSAnalyzeAreaCard.swift",
       "kind": "Array",
-      "offset": 782,
+      "offset": 964,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/AnalyzeResultView\/SLSAnalyzeAreaCard.swift",
       "kind": "StringLiteral",
-      "offset": 818,
+      "offset": 1000,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/AnalyzeResultView\/SLSAnalyzeAreaCard.swift",
       "kind": "StringLiteral",
-      "offset": 896,
+      "offset": 1078,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/AnalyzeResultView\/SLSAnalyzeAreaCard.swift",
       "kind": "FloatLiteral",
-      "offset": 10481,
+      "offset": 11091,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/AnalyzeResultView\/SLSAnalyzeAreaCard.swift",
       "kind": "FloatLiteral",
-      "offset": 10983,
+      "offset": 11593,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/AnalyzeResultView\/SLSLegsScoreCard.swift",
       "kind": "IntegerLiteral",
-      "offset": 222,
+      "offset": 322,
       "length": 2,
       "value": "50"
     },
     {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/OnboardingView\/PrevProgressView.swift",
+      "kind": "Array",
+      "offset": 581,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/OnboardingView\/PrevProgressView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 615,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/OnboardingView\/SLSTestOnboardingPage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 287,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/OnboardingView\/SLSTestOnboardingPage.swift",
+      "kind": "Array",
+      "offset": 305,
+      "length": 9,
+      "value": "[0, 1, 2]"
+    },
+    {
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/OnboardingView\/SLSTestOnboardingVideoView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 797,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/OverlayViews\/AnalyzeProgressView.swift",
       "kind": "IntegerLiteral",
-      "offset": 288,
+      "offset": 356,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/OverlayViews\/AnalyzeProgressView.swift",
       "kind": "StringLiteral",
-      "offset": 323,
+      "offset": 391,
       "length": 19,
       "value": "\"gradient-analytic\""
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/OverlayViews\/AnalyzeProgressView.swift",
       "kind": "IntegerLiteral",
-      "offset": 397,
+      "offset": 465,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/OverlayViews\/UploadProgressView.swift",
       "kind": "StringLiteral",
-      "offset": 185,
+      "offset": 258,
       "length": 17,
       "value": "\"cloud-uploading\""
     },
@@ -6437,13 +6865,6 @@
       "offset": 3813,
       "length": 1,
       "value": "6"
-    },
-    {
-      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/SLSTestOnboardingPage.swift",
-      "kind": "BooleanLiteral",
-      "offset": 824,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/SLSTestResultPage.swift",
@@ -6553,47 +6974,47 @@
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/TakeTest\/TestPage.swift",
       "kind": "BooleanLiteral",
-      "offset": 180,
+      "offset": 230,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Public\/DefaultColors.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Public\/Defaults\/DefaultStyle.swift",
       "kind": "StringLiteral",
       "offset": 180,
       "length": 11,
       "value": "\"bgprimary\""
     },
     {
-      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Public\/DefaultColors.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Public\/Defaults\/DefaultStyle.swift",
       "kind": "StringLiteral",
       "offset": 276,
       "length": 10,
       "value": "\"maintext\""
     },
     {
-      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Public\/DefaultColors.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Public\/Defaults\/DefaultStyle.swift",
       "kind": "StringLiteral",
       "offset": 380,
       "length": 15,
       "value": "\"textsecondary\""
     },
     {
-      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Public\/DefaultColors.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Public\/Defaults\/DefaultStyle.swift",
       "kind": "StringLiteral",
       "offset": 487,
       "length": 13,
       "value": "\"bgsecondary\""
     },
     {
-      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Public\/DefaultColors.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Public\/Defaults\/DefaultStyle.swift",
       "kind": "StringLiteral",
       "offset": 592,
       "length": 13,
       "value": "\"bghighlight\""
     },
     {
-      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Public\/DefaultColors.swift",
+      "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Public\/Defaults\/DefaultStyle.swift",
       "kind": "StringLiteral",
       "offset": 691,
       "length": 7,
@@ -6707,338 +7128,415 @@
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2624,
-      "length": 10,
-      "value": "\"branding\""
-    },
-    {
-      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 2768,
+      "offset": 2632,
       "length": 14,
       "value": "\"btnsecondary\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 2918,
+      "offset": 2782,
       "length": 15,
       "value": "\"chartriskhigh\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3067,
+      "offset": 2931,
       "length": 14,
       "value": "\"chartrisklow\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3219,
+      "offset": 3083,
       "length": 16,
       "value": "\"chartriskmorde\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3371,
+      "offset": 3235,
       "length": 15,
       "value": "\"fillsecondary\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3516,
+      "offset": 3380,
       "length": 12,
       "value": "\"glassblack\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3658,
+      "offset": 3522,
       "length": 12,
       "value": "\"inputerror\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3802,
+      "offset": 3666,
       "length": 13,
       "value": "\"levelBgBlue\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 3949,
+      "offset": 3813,
       "length": 14,
       "value": "\"levelBgGreen\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4099,
+      "offset": 3963,
       "length": 15,
       "value": "\"levelBgOrange\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4244,
+      "offset": 4108,
       "length": 12,
       "value": "\"levelBgRed\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4392,
+      "offset": 4256,
       "length": 15,
       "value": "\"levelBgYellow\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4543,
+      "offset": 4407,
       "length": 15,
       "value": "\"levelTextBlue\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4696,
+      "offset": 4560,
       "length": 16,
       "value": "\"levelTextGreen\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4852,
+      "offset": 4716,
       "length": 17,
       "value": "\"levelTextOrange\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5003,
+      "offset": 4867,
       "length": 14,
       "value": "\"levelTextRed\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5157,
+      "offset": 5021,
       "length": 17,
       "value": "\"levelTextYellow\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5300,
+      "offset": 5164,
       "length": 10,
       "value": "\"maintext\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5444,
+      "offset": 5308,
       "length": 14,
       "value": "\"popupoverlay\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5592,
+      "offset": 5456,
       "length": 14,
       "value": "\"textriskhigh\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5738,
+      "offset": 5602,
       "length": 13,
       "value": "\"textrisklow\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5887,
+      "offset": 5751,
       "length": 15,
       "value": "\"textriskmorde\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6038,
+      "offset": 5902,
       "length": 15,
       "value": "\"textsecondary\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6187,
+      "offset": 6051,
       "length": 14,
       "value": "\"texttertiary\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6335,
+      "offset": 6199,
       "length": 14,
       "value": "\"titlerisklow\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6606,
+      "offset": 6470,
       "length": 23,
       "value": "\"ArrowCounterClockwise\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6757,
+      "offset": 6621,
       "length": 11,
       "value": "\"CaretDown\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6892,
+      "offset": 6756,
       "length": 9,
       "value": "\"CaretUp\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7019,
+      "offset": 6897,
+      "length": 13,
+      "value": "\"CheckCircle\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7028,
       "length": 6,
       "value": "\"Info\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7157,
+      "offset": 7164,
+      "length": 12,
+      "value": "\"PlayCircle\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7308,
       "length": 13,
       "value": "\"ShieldCheck\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7294,
+      "offset": 7445,
       "length": 9,
       "value": "\"Warning\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7441,
+      "offset": 7578,
+      "length": 9,
+      "value": "\"XCircle\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7725,
       "length": 17,
       "value": "\"area-chart-high\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7594,
+      "offset": 7878,
       "length": 16,
       "value": "\"area-chart-low\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7748,
+      "offset": 8032,
       "length": 17,
       "value": "\"area-chart-mode\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7898,
+      "offset": 8182,
       "length": 14,
       "value": "\"header-close\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8040,
+      "offset": 8324,
       "length": 11,
       "value": "\"hourglass\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8189,
+      "offset": 8474,
+      "length": 17,
+      "value": "\"jacket_standing\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8629,
       "length": 17,
       "value": "\"left-green-foot\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8348,
+      "offset": 8788,
       "length": 19,
       "value": "\"left-guidance-bar\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8501,
+      "offset": 8941,
       "length": 15,
       "value": "\"left-red-foot\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8651,
+      "offset": 9091,
       "length": 15,
       "value": "\"logo-gradient\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8792,
+      "offset": 9235,
+      "length": 12,
+      "value": "\"long_pants\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9373,
       "length": 10,
       "value": "\"modelraw\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8920,
+      "offset": 9501,
       "length": 6,
       "value": "\"mute\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9046,
+      "offset": 9627,
       "length": 7,
       "value": "\"muted\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9193,
+      "offset": 9774,
       "length": 18,
       "value": "\"right-green-foot\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9355,
+      "offset": 9936,
       "length": 20,
       "value": "\"right-guidance-bar\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9511,
+      "offset": 10092,
       "length": 16,
       "value": "\"right-red-foot\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9665,
+      "offset": 10246,
       "length": 17,
       "value": "\"sls-guide-arrow\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10388,
+      "length": 10,
+      "value": "\"socks_on\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10537,
+      "length": 17,
+      "value": "\"stance_instruct\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10693,
+      "length": 17,
+      "value": "\"standing_iPhone\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10845,
+      "length": 15,
+      "value": "\"standing_user\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11004,
+      "length": 20,
+      "value": "\"standing_user_tall\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11158,
+      "length": 15,
+      "value": "\"user_on_phone\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphoneos\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11305,
+      "length": 14,
+      "value": "\"well_lit_env\""
     }
   ]
 }

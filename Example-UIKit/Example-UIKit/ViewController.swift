@@ -33,12 +33,13 @@ class ViewController: UIViewController {
                             brandingSecondary: Color(hex: "FF577B")
                         ),
                         shapes: ShapeConfig(
-                            cardStroke: AnyShapeStyle(
-                                LinearGradient(
-                                    colors: [Color(hex: "F03457"), .clear],
-                                    startPoint: .leading,
-                                    endPoint: .trailing
-                                )
+                            cardStroke: .linearGradient(
+                                leading: Color(hex: "F03457"),
+                                trailing: .clear
+                            ),
+                            seperatorStroke: .linearGradient(
+                                leading: Color(hex: "D03457"),
+                                trailing: .clear
                             )
                         )
                     ),

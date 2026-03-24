@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		bCSBEMMObP5r3NJPKdXixjAjK8I=
+		Sgj15W3WFcnHS6SPic0+E2kk9D8=
 		</data>
 		<key>Frameworks/KinisAIKit.framework/Info.plist</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Frameworks/KinisAIKit.framework/KinisAIKit</key>
 		<data>
-		xxJEbiAMJfH//m3qxhpzEK2YJx4=
+		mtiLVQ0pWMcDIiB90Z1gWsU1qSo=
 		</data>
 		<key>Frameworks/KinisAIKit.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		WM14dD7SCzWtYu24My+XDSt4KDQ=
+		qbvICyy0ohB4d5hECr/6S3Mygms=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		jZ+roGAm+ICBQGHvrRCvS2Pd5D4=
+		yb2D/5u4qJfIJ72O4g+eRvC7+SU=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		jZ+roGAm+ICBQGHvrRCvS2Pd5D4=
+		yb2D/5u4qJfIJ72O4g+eRvC7+SU=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		es/PdrzJ6yZLVgL9FFX8tbMERSk=
+		ZXTVEUHZElCV7k7x4/oWWoqKjpY=
 		</data>
 		<key>Phudu-VariableFont_wght.ttf</key>
 		<data>
@@ -60,7 +60,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oHw6/VaNHEN1WkIiREw0YoLQogs=
+			aWReVpkWyujXlw/sZGkwrkBzXmA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -69,7 +69,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			52C0Vb3ozi+O0f6dCXNrKD4mY2I=
+			OxJMsOLACR7/NbQC6QuKZNbUjf4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QZTxPJazFmhE9KkIKfSNoB2gjBA=
+			MoQI/y3wAVh4PBY7SzCTW8mf1NQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -87,7 +87,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			55CeV+hzWc0McikHidPXFwoP1m4=
+			ev3w4wELZWBqKvzNYpLiQ5k3vpw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -99,7 +99,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IkYI0ahfI5+y3Egr2erZW9VwUbwmFEjN809iQgzRaBs=
+			49BrJsKCy/6oAZbmHa7F10Sv9GRxvjZBhZVdYGNR5NE=
 			</data>
 		</dict>
 		<key>Frameworks/KinisAIKit.framework/Info.plist</key>
@@ -113,7 +113,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CiMRJqc91xNZ/bSld0FQ1KPvlN+h49a23PVI768hma0=
+			uf1JOFj2f3f8v10TellhwAJBT+Eeee+3s7BrCqytdyQ=
 			</data>
 		</dict>
 		<key>Frameworks/KinisAIKit.framework/_CodeSignature/CodeResources</key>
@@ -141,14 +141,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QqP8XUkyeFU6w2FBPDJeBVJhHnzF5N85sKp5Ccgh64k=
+			NJ6Di+fK3Ew2ZC9t23QxkCQjYf4BUWhRWEvdLZ4yWdI=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oQCJHzI3qqFVjPRt3EH5ZkRxWRuSyVSEIIqzHt8C95k=
+			cxabGmCOcgLgNAZg+Sv+dCXPCxQ9Jxpy712UR0XSUKY=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -162,14 +162,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oQCJHzI3qqFVjPRt3EH5ZkRxWRuSyVSEIIqzHt8C95k=
+			cxabGmCOcgLgNAZg+Sv+dCXPCxQ9Jxpy712UR0XSUKY=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s4AbHqUiGKe4TK6qMj/CKznTVA/5YHT8P+Ih9+ppd+0=
+			9YPRLPIy0ckqpToLiOzG8BDxUYVJycKxWARyeB2HRqI=
 			</data>
 		</dict>
 		<key>Phudu-VariableFont_wght.ttf</key>
@@ -183,7 +183,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			35iSpnHqKMUfQNSN2xb52/1AZ6V8Lf6t8Kol+e6Ibhs=
+			9WjWFpPPoTzMIKUPrc2bUvKlwO2I03ajvLi9Nu70So0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -192,7 +192,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qamm4QE2Hrv5533hZEU1N0zI1q+qCSnRKx/x+auZDb8=
+			T1blO9Dz1l+4nwoS5cEqpZaVDRuMBQhsJOkBazZW7tw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -201,7 +201,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JzgXPtZNwfFzLEG3OULgDfnL5zIQU1V/uMreljEnKDE=
+			eae+80oy/qdGcHzB3TiL5B9aze36vldLoy0HpvNm1pg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -210,7 +210,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V5kBYOYIGcisIkTCbejOhYRMlAkoZvlmc80Vm5P7y08=
+			92S/XbTnM5Fg3vF99CVe/eWEAdMpgKqfw/9yuRSVtTo=
 			</data>
 			<key>optional</key>
 			<true/>
