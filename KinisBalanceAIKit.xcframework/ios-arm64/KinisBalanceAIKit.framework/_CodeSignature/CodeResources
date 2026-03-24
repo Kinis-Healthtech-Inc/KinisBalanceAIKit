@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Sgj15W3WFcnHS6SPic0+E2kk9D8=
+		Ex5GIXQ+S5I3bPuFpzunf/OwUkY=
 		</data>
 		<key>Frameworks/KinisAIKit.framework/Info.plist</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Frameworks/KinisAIKit.framework/KinisAIKit</key>
 		<data>
-		mtiLVQ0pWMcDIiB90Z1gWsU1qSo=
+		+SN4qzGUYaxSWMYrHGDPJb+79wY=
 		</data>
 		<key>Frameworks/KinisAIKit.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		qbvICyy0ohB4d5hECr/6S3Mygms=
+		Bphrxmyu6QmT1y/yQTjtBWoGiFI=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ZXTVEUHZElCV7k7x4/oWWoqKjpY=
+		lLhPlKDNbryiLyzQUmFM/Jz5SZg=
 		</data>
 		<key>Phudu-VariableFont_wght.ttf</key>
 		<data>
@@ -99,7 +99,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			49BrJsKCy/6oAZbmHa7F10Sv9GRxvjZBhZVdYGNR5NE=
+			zZOgbvnMHS+jwRv3Kz4wSUadI8o1fL69szhz5wTK8Fg=
 			</data>
 		</dict>
 		<key>Frameworks/KinisAIKit.framework/Info.plist</key>
@@ -113,7 +113,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uf1JOFj2f3f8v10TellhwAJBT+Eeee+3s7BrCqytdyQ=
+			de1xhJC5wt015cwjTFpu9s0UtGwZeU5mvQ2DJIQ3LWk=
 			</data>
 		</dict>
 		<key>Frameworks/KinisAIKit.framework/_CodeSignature/CodeResources</key>
@@ -141,7 +141,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NJ6Di+fK3Ew2ZC9t23QxkCQjYf4BUWhRWEvdLZ4yWdI=
+			mXBJTYQ8dyGGj2AhM5qTTKXNoBWc/xKLTQGvWdQIb7g=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -169,7 +169,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9YPRLPIy0ckqpToLiOzG8BDxUYVJycKxWARyeB2HRqI=
+			v6vUlirbHpE51L4coM9qv5yRtuZlNyDjNb+FoB3WDuc=
 			</data>
 		</dict>
 		<key>Phudu-VariableFont_wght.ttf</key>
