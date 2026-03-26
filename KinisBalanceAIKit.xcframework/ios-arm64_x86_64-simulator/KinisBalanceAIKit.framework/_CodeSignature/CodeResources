@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		2m0gpB6cZcaAnhYQOoT6hS0SuAo=
+		eSK+LIJGu2BCAjFvDQoKlnVoSHo=
 		</data>
 		<key>Frameworks/KinisAIKit.framework/Info.plist</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Frameworks/KinisAIKit.framework/KinisAIKit</key>
 		<data>
-		Akg1yBAjLQ8Wia4kcOYg3Dof1SI=
+		ErVJsZi5go7Z5FLOpvf/7jH5e5E=
 		</data>
 		<key>Frameworks/KinisAIKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		xLW3VCM8o1kAT8m70eyakPTWYXg=
+		DHabgSHoD5T1x80pYeUtP1EwThQ=
 		</data>
-		<key>Frameworks/KinisAIKit.framework/pose_landmarker_heavy.task</key>
+		<key>Frameworks/KinisAIKit.framework/pose_landmarker_lite.task</key>
 		<data>
-		Z+NOVOdU+rOdTx642BLlQWUv6Tw=
+		NQAhGW+lLvIKshU/GlsOcSytzWc=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		7lF2JMdyEub12DGoTWsQhmBJvMM=
+		VfkqcTOr5BILnJC3QiLF8NeWErY=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3uasUhO0bZhO6leWe4LD8gL/qWI=
+		Yp/BcLFENXQxS4wBdSF7snFL9r8=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		7lF2JMdyEub12DGoTWsQhmBJvMM=
+		VfkqcTOr5BILnJC3QiLF8NeWErY=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -70,11 +70,31 @@
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		EMRSOsdAOp5IOBVPnipCkhwKH8k=
+		Cvw+Cb+uVr1jNT2f4uL6oAfS1Do=
 		</data>
 		<key>Phudu-VariableFont_wght.ttf</key>
 		<data>
 		HDDe1bhqjbwPr5ysSDUOIFrNWgc=
+		</data>
+		<key>en-step1.mp3</key>
+		<data>
+		5rJjT9Uob8pLMxKN7VQBwmIT680=
+		</data>
+		<key>en-step2.mp3</key>
+		<data>
+		vFJCsgo4Xg/YdypGIBjhJ2IvSdg=
+		</data>
+		<key>en-step3-Test-Left-Leg.mp3</key>
+		<data>
+		91oSHRhXFG7Ls+30jQhM2fgRfAQ=
+		</data>
+		<key>en-step3-Test-Right-Leg.mp3</key>
+		<data>
+		+YFEPlprKq2HW/sGqupuFZEAa5Y=
+		</data>
+		<key>en-step4.mp3</key>
+		<data>
+		08q+btIjxss2KIi1zcEldOlrMZ8=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
@@ -94,6 +114,26 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>vi-step1.mp3</key>
+		<data>
+		9Npq3h4bJA9OA2TBazeqSFidwlg=
+		</data>
+		<key>vi-step2.mp3</key>
+		<data>
+		KOHxf1e95wXEW4ve++RL6TKu2XQ=
+		</data>
+		<key>vi-step3-Test-Left-Leg.mp3</key>
+		<data>
+		jtWQ3ZXnaIunt0u/YeUOlTJ0G78=
+		</data>
+		<key>vi-step3-Test-Right-Leg.mp3</key>
+		<data>
+		k6GXNfOVOcO6xKl7ZHTEXnkRldM=
+		</data>
+		<key>vi-step4.mp3</key>
+		<data>
+		8bsSTKkbN1rEzGPpqZaet35DMN8=
+		</data>
 		<key>vi.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -119,7 +159,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OSlEJL/yESxJF7cvib2WlHpuXfpFBpuQrL+ci6Cqj4U=
+			K9G7EY8lAMwwBblqS+PrPtC4tJbmIQb36C8ZzdUP7Zk=
 			</data>
 		</dict>
 		<key>Frameworks/KinisAIKit.framework/Info.plist</key>
@@ -133,21 +173,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			duxQ1p0jD1iIPowN4guib5g1UCGBjeIWs27i7QRcfBo=
+			fcysQk/OoePK4LiaYKJ7OIn/10z05A0vDqUaccTBDoQ=
 			</data>
 		</dict>
 		<key>Frameworks/KinisAIKit.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n0D4E6/WdLd9OoO/sZSveQZ9ecf+Ci1RRi5BAeXdfLY=
+			g0QVyGcvuhM8ySNaGQyzxSQ8dyQtDu6pB1nnOVjX2+g=
 			</data>
 		</dict>
-		<key>Frameworks/KinisAIKit.framework/pose_landmarker_heavy.task</key>
+		<key>Frameworks/KinisAIKit.framework/pose_landmarker_lite.task</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZEN6+DimXRjlunoNObRlVABpvIqugwjePjGKrTH8vHs=
+			WZKeHR7pUodzXd2DOxnPSsRtKbx6/du/Z1PEWWkNV0o=
 			</data>
 		</dict>
 		<key>Manrope-VariableFont_wght.ttf</key>
@@ -161,7 +201,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1y1PYdB300FwCnmaH8ACZds2nRbeQyx/s8lxBhaRpV8=
+			A8ACFRR5mcOtIZRmkbVn4nfJptt7D7WKkC9uIAGClnM=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -189,14 +229,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			M9B/pInCAYS3RmJmt5FMnQyCSruiymI2opxWIc0S6yY=
+			JwKYS8fS6H6+L7SBJjCwkgeo3LSfx0LZ3T1NqLllzg8=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1y1PYdB300FwCnmaH8ACZds2nRbeQyx/s8lxBhaRpV8=
+			A8ACFRR5mcOtIZRmkbVn4nfJptt7D7WKkC9uIAGClnM=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -224,7 +264,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			92BlVWGQ7bJZLMRka2fxcdyXRz8T1yRMyqUaOHvnh3U=
+			/MzoajJE7s3AMOFfmUEOJ668PmT98culeFwgqGO085w=
 			</data>
 		</dict>
 		<key>Phudu-VariableFont_wght.ttf</key>
@@ -232,6 +272,41 @@
 			<key>hash2</key>
 			<data>
 			JFR5nyFxHT+E+RHzDX59j3DOgfW0QdGFAeMhRLNC0eM=
+			</data>
+		</dict>
+		<key>en-step1.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BXPrlb5ALjWMlwf1Vh1ZGozn1SZOCpiIY+y70w6c93I=
+			</data>
+		</dict>
+		<key>en-step2.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hzpAggcRoy0TUcyNIoFb8ORiBgREn7c+SYGiX635M00=
+			</data>
+		</dict>
+		<key>en-step3-Test-Left-Leg.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			G3LH6u2ka+EulP3hHn3bPGnMguJsKcih5dx1au9QlLo=
+			</data>
+		</dict>
+		<key>en-step3-Test-Right-Leg.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0BzBskStj7R+bslWeTbGTFkXD+RAP4+PVLWcnFgz8/k=
+			</data>
+		</dict>
+		<key>en-step4.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cTBYqOPO81kAoKjk0kGm83fXVQL+eQLUxPIm/zqpuvI=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
@@ -251,6 +326,41 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>vi-step1.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hAWvSprjEfRDjxent6DMVKxnVrAwgETG2o1ZewsX1UI=
+			</data>
+		</dict>
+		<key>vi-step2.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AFCmUAXejNo0BCjRwkTNvbZGsNdmYGm96W1Rjns80is=
+			</data>
+		</dict>
+		<key>vi-step3-Test-Left-Leg.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HRFI1EAPIzw/07w+hdy7qwcU8MljL/9YDDkCEgmVWDk=
+			</data>
+		</dict>
+		<key>vi-step3-Test-Right-Leg.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QKYl2f0Hpe1OaHqI5ZAN+g1zD3cnXQVyHVYa40aQqRw=
+			</data>
+		</dict>
+		<key>vi-step4.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sOotFds/65YR71vTXbrbJAPxtkItSj5+Gmmm4UWm/3M=
+			</data>
 		</dict>
 		<key>vi.lproj/Localizable.strings</key>
 		<dict>

@@ -32,7 +32,7 @@ class ViewController: UIViewController {
                             branding: Color(hex: "F03457"),
                             brandingSecondary: Color(hex: "FF577B")
                         ),
-                        shapes: ShapeConfig(
+                        shapes: .init(
                             cardStroke: .linearGradient(
                                 leading: Color(hex: "F03457"),
                                 trailing: .clear
@@ -49,7 +49,7 @@ class ViewController: UIViewController {
                         yob: 1998,
                         name: "Marc",
                         gender: .male,
-                        language: .en
+                        language: .vi
                     )
                 )
             ),

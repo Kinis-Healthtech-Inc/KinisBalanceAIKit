@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Ex5GIXQ+S5I3bPuFpzunf/OwUkY=
+		ihedLCtGWBp+SC97bv4ZuBZMCGA=
 		</data>
 		<key>Frameworks/KinisAIKit.framework/Info.plist</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Frameworks/KinisAIKit.framework/KinisAIKit</key>
 		<data>
-		+SN4qzGUYaxSWMYrHGDPJb+79wY=
+		rmYtfa/BIKU23liplRpNNzUFwYA=
 		</data>
 		<key>Frameworks/KinisAIKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		eJitfFDZ5Bk0g6zj8dK8vs0N8g0=
+		ZJYJzc+QlffIhlW5ht/kAZYWRBE=
 		</data>
-		<key>Frameworks/KinisAIKit.framework/pose_landmarker_heavy.task</key>
+		<key>Frameworks/KinisAIKit.framework/pose_landmarker_lite.task</key>
 		<data>
-		Z+NOVOdU+rOdTx642BLlQWUv6Tw=
+		NQAhGW+lLvIKshU/GlsOcSytzWc=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Bphrxmyu6QmT1y/yQTjtBWoGiFI=
+		4AwtgS3qRDKEH/hmH/jIq6BsCjg=
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -50,11 +50,31 @@
 		</data>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		lLhPlKDNbryiLyzQUmFM/Jz5SZg=
+		5+7/RNjFijlShlySMTHIkk/EmQE=
 		</data>
 		<key>Phudu-VariableFont_wght.ttf</key>
 		<data>
 		HDDe1bhqjbwPr5ysSDUOIFrNWgc=
+		</data>
+		<key>en-step1.mp3</key>
+		<data>
+		5rJjT9Uob8pLMxKN7VQBwmIT680=
+		</data>
+		<key>en-step2.mp3</key>
+		<data>
+		vFJCsgo4Xg/YdypGIBjhJ2IvSdg=
+		</data>
+		<key>en-step3-Test-Left-Leg.mp3</key>
+		<data>
+		91oSHRhXFG7Ls+30jQhM2fgRfAQ=
+		</data>
+		<key>en-step3-Test-Right-Leg.mp3</key>
+		<data>
+		+YFEPlprKq2HW/sGqupuFZEAa5Y=
+		</data>
+		<key>en-step4.mp3</key>
+		<data>
+		08q+btIjxss2KIi1zcEldOlrMZ8=
 		</data>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
@@ -74,6 +94,26 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>vi-step1.mp3</key>
+		<data>
+		9Npq3h4bJA9OA2TBazeqSFidwlg=
+		</data>
+		<key>vi-step2.mp3</key>
+		<data>
+		KOHxf1e95wXEW4ve++RL6TKu2XQ=
+		</data>
+		<key>vi-step3-Test-Left-Leg.mp3</key>
+		<data>
+		jtWQ3ZXnaIunt0u/YeUOlTJ0G78=
+		</data>
+		<key>vi-step3-Test-Right-Leg.mp3</key>
+		<data>
+		k6GXNfOVOcO6xKl7ZHTEXnkRldM=
+		</data>
+		<key>vi-step4.mp3</key>
+		<data>
+		8bsSTKkbN1rEzGPpqZaet35DMN8=
+		</data>
 		<key>vi.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
@@ -99,7 +139,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zZOgbvnMHS+jwRv3Kz4wSUadI8o1fL69szhz5wTK8Fg=
+			vW+9HBfeKn5h5zYjs9z8G1bOpKO4PxV+PxcX/43i0Ag=
 			</data>
 		</dict>
 		<key>Frameworks/KinisAIKit.framework/Info.plist</key>
@@ -113,21 +153,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			de1xhJC5wt015cwjTFpu9s0UtGwZeU5mvQ2DJIQ3LWk=
+			z1laC6k21RNci3mnyApPHkEBrL0cNFBiakuC1Cerd2c=
 			</data>
 		</dict>
 		<key>Frameworks/KinisAIKit.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WmgWky9pQJZ6bdx7zmrvth7xvQDIO8IRS07YdBW1MXk=
+			bxAYh8OOq0VM0wtb5d8OsmBswFBpYeP2AFftTa7cqII=
 			</data>
 		</dict>
-		<key>Frameworks/KinisAIKit.framework/pose_landmarker_heavy.task</key>
+		<key>Frameworks/KinisAIKit.framework/pose_landmarker_lite.task</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZEN6+DimXRjlunoNObRlVABpvIqugwjePjGKrTH8vHs=
+			WZKeHR7pUodzXd2DOxnPSsRtKbx6/du/Z1PEWWkNV0o=
 			</data>
 		</dict>
 		<key>Manrope-VariableFont_wght.ttf</key>
@@ -141,7 +181,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mXBJTYQ8dyGGj2AhM5qTTKXNoBWc/xKLTQGvWdQIb7g=
+			ezUrW8fI9uzEY3J0RVO1f8OPnJvRaRddhDyPuywzpn4=
 			</data>
 		</dict>
 		<key>Modules/KinisBalanceAIKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -169,7 +209,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			v6vUlirbHpE51L4coM9qv5yRtuZlNyDjNb+FoB3WDuc=
+			fGxq1S1MGXzqRv+RmVErXbf0JzfToag26dHubC4W2hg=
 			</data>
 		</dict>
 		<key>Phudu-VariableFont_wght.ttf</key>
@@ -177,6 +217,41 @@
 			<key>hash2</key>
 			<data>
 			JFR5nyFxHT+E+RHzDX59j3DOgfW0QdGFAeMhRLNC0eM=
+			</data>
+		</dict>
+		<key>en-step1.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BXPrlb5ALjWMlwf1Vh1ZGozn1SZOCpiIY+y70w6c93I=
+			</data>
+		</dict>
+		<key>en-step2.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hzpAggcRoy0TUcyNIoFb8ORiBgREn7c+SYGiX635M00=
+			</data>
+		</dict>
+		<key>en-step3-Test-Left-Leg.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			G3LH6u2ka+EulP3hHn3bPGnMguJsKcih5dx1au9QlLo=
+			</data>
+		</dict>
+		<key>en-step3-Test-Right-Leg.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0BzBskStj7R+bslWeTbGTFkXD+RAP4+PVLWcnFgz8/k=
+			</data>
+		</dict>
+		<key>en-step4.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cTBYqOPO81kAoKjk0kGm83fXVQL+eQLUxPIm/zqpuvI=
 			</data>
 		</dict>
 		<key>en.lproj/Localizable.strings</key>
@@ -196,6 +271,41 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>vi-step1.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hAWvSprjEfRDjxent6DMVKxnVrAwgETG2o1ZewsX1UI=
+			</data>
+		</dict>
+		<key>vi-step2.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AFCmUAXejNo0BCjRwkTNvbZGsNdmYGm96W1Rjns80is=
+			</data>
+		</dict>
+		<key>vi-step3-Test-Left-Leg.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HRFI1EAPIzw/07w+hdy7qwcU8MljL/9YDDkCEgmVWDk=
+			</data>
+		</dict>
+		<key>vi-step3-Test-Right-Leg.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QKYl2f0Hpe1OaHqI5ZAN+g1zD3cnXQVyHVYa40aQqRw=
+			</data>
+		</dict>
+		<key>vi-step4.mp3</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sOotFds/65YR71vTXbrbJAPxtkItSj5+Gmmm4UWm/3M=
+			</data>
 		</dict>
 		<key>vi.lproj/Localizable.strings</key>
 		<dict>

@@ -1684,6 +1684,40 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "KinisBalanceAIKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -6680,7 +6714,7 @@
     {
       "filePath": "\/Users\/macbook\/Documents\/Kinis\/KinisAIKit\/KinisBalanceAIKit\/KinisBalanceAIKit\/Private\/Presentation\/Home\/HomeHeader.swift",
       "kind": "BooleanLiteral",
-      "offset": 1258,
+      "offset": 1250,
       "length": 5,
       "value": "false"
     },
@@ -7443,112 +7477,105 @@
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9241,
+      "offset": 9224,
+      "length": 6,
+      "value": "\"logo\""
+    },
+    {
+      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9365,
       "length": 15,
       "value": "\"logo-gradient\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9385,
+      "offset": 9509,
       "length": 12,
       "value": "\"long_pants\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9523,
+      "offset": 9647,
       "length": 10,
       "value": "\"modelraw\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9651,
-      "length": 6,
-      "value": "\"mute\""
-    },
-    {
-      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 9777,
-      "length": 7,
-      "value": "\"muted\""
-    },
-    {
-      "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 9924,
+      "offset": 9797,
       "length": 18,
       "value": "\"right-green-foot\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10086,
+      "offset": 9959,
       "length": 20,
       "value": "\"right-guidance-bar\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10242,
+      "offset": 10115,
       "length": 16,
       "value": "\"right-red-foot\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10396,
+      "offset": 10269,
       "length": 17,
       "value": "\"sls-guide-arrow\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10538,
+      "offset": 10411,
       "length": 10,
       "value": "\"socks_on\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10687,
+      "offset": 10560,
       "length": 17,
       "value": "\"stance_instruct\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10843,
+      "offset": 10716,
       "length": 17,
       "value": "\"standing_iPhone\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10995,
+      "offset": 10868,
       "length": 15,
       "value": "\"standing_user\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11154,
+      "offset": 11027,
       "length": 20,
       "value": "\"standing_user_tall\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11308,
+      "offset": 11181,
       "length": 15,
       "value": "\"user_on_phone\""
     },
     {
       "filePath": "\/Users\/macbook\/Library\/Developer\/Xcode\/DerivedData\/KinisAIKit-bovatupxlqcirjdkthxvvjbwsfry\/Build\/Intermediates.noindex\/ArchiveIntermediates\/KinisBalanceAIKit\/IntermediateBuildFilesPath\/KinisBalanceAIKit.build\/Release-iphonesimulator\/KinisBalanceAIKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11455,
+      "offset": 11328,
       "length": 14,
       "value": "\"well_lit_env\""
     }
